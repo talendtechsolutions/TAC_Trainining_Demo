@@ -7,6 +7,841 @@
     <documentationStatus xmi:id="_u8QG8ELLEeeGfMVCFmCKtg" label="unchecked" code="UCK"/>
     <documentationStatus xmi:id="_u8QuAELLEeeGfMVCFmCKtg" label="checked" code="CHK"/>
     <documentationStatus xmi:id="_u8QuAULLEeeGfMVCFmCKtg" label="validated" code="VAL"/>
+    <componentsSettings xmi:id="_g5vZAELMEeeGfMVCFmCKtg" name="DI|tMysqlInput" hidden="true" family="Databases/MySQL"/>
+    <componentsSettings xmi:id="_g5vZAULMEeeGfMVCFmCKtg" name="DI|tELTGreenplumOutput" hidden="true" family="ELT/Map/Greenplum"/>
+    <componentsSettings xmi:id="_g5vZAkLMEeeGfMVCFmCKtg" name="DI|tNetsuiteInput" hidden="true" family="Business/NetSuite"/>
+    <componentsSettings xmi:id="_g5vZA0LMEeeGfMVCFmCKtg" name="DI|tParAccelInput" hidden="true" family="Databases/ParAccel"/>
+    <componentsSettings xmi:id="_g5vZBELMEeeGfMVCFmCKtg" name="DI|tBoxPut" hidden="true" family="Cloud/Box"/>
+    <componentsSettings xmi:id="_g5vZBULMEeeGfMVCFmCKtg" name="DI|tAmazonOracleInput" hidden="true" family="Databases/Amazon/Oracle"/>
+    <componentsSettings xmi:id="_g5vZBkLMEeeGfMVCFmCKtg" name="DI|tS3Put" hidden="true" family="Cloud/Amazon/S3"/>
+    <componentsSettings xmi:id="_g5vZB0LMEeeGfMVCFmCKtg" name="DI|tAmazonOracleRollback" hidden="true" family="Databases/Amazon/Oracle"/>
+    <componentsSettings xmi:id="_g5vZCELMEeeGfMVCFmCKtg" name="DI|tELTGreenplumMap" hidden="true" family="ELT/Map/Greenplum"/>
+    <componentsSettings xmi:id="_g5vZCULMEeeGfMVCFmCKtg" name="DI|tNetezzaClose" hidden="true" family="Databases/Netezza"/>
+    <componentsSettings xmi:id="_g5vZCkLMEeeGfMVCFmCKtg" name="DI|tMysqlConnection" hidden="true" family="Databases/MySQL"/>
+    <componentsSettings xmi:id="_g5vZC0LMEeeGfMVCFmCKtg" name="DI|tInformixOutputBulk" hidden="true" family="Databases/Informix"/>
+    <componentsSettings xmi:id="_g5vZDELMEeeGfMVCFmCKtg" name="DI|tMySQLValidRows" hidden="true" family="Databases/MySQL"/>
+    <componentsSettings xmi:id="_g5vZDULMEeeGfMVCFmCKtg" name="DI|tELTGreenplumInput" hidden="true" family="ELT/Map/Greenplum"/>
+    <componentsSettings xmi:id="_g5vZDkLMEeeGfMVCFmCKtg" name="DI|tTeradataSCDELT" hidden="true" family="Databases/Teradata"/>
+    <componentsSettings xmi:id="_g5vZD0LMEeeGfMVCFmCKtg" name="DI|tAS400Output" hidden="true" family="Databases/AS400"/>
+    <componentsSettings xmi:id="_g5vZEELMEeeGfMVCFmCKtg" name="DI|tEXAConnection" hidden="true" family="ELT/Connections"/>
+    <componentsSettings xmi:id="_g5vZEULMEeeGfMVCFmCKtg" name="DI|tRedshiftRow" hidden="true" family="Cloud/Amazon/Redshift"/>
+    <componentsSettings xmi:id="_g5vZEkLMEeeGfMVCFmCKtg" name="DI|tSAPDataSourceReceiver" hidden="true" family="Business/SAP"/>
+    <componentsSettings xmi:id="_g5vZE0LMEeeGfMVCFmCKtg" name="DI|tS3BucketCreate" hidden="true" family="Cloud/Amazon/S3"/>
+    <componentsSettings xmi:id="_g5vZFELMEeeGfMVCFmCKtg" name="DI|tJavaDBInput" hidden="true" family="Databases/JavaDB"/>
+    <componentsSettings xmi:id="_g5vZFULMEeeGfMVCFmCKtg" name="DI|tOpenbravoERPInput" hidden="true" family="Business/Open Bravo"/>
+    <componentsSettings xmi:id="_g5vZFkLMEeeGfMVCFmCKtg" name="DI|tFirebirdInput" hidden="true" family="Databases/FireBird"/>
+    <componentsSettings xmi:id="_g5vZF0LMEeeGfMVCFmCKtg" name="DI|tOracleConnection" hidden="true" family="Databases/Oracle"/>
+    <componentsSettings xmi:id="_g5vZGELMEeeGfMVCFmCKtg" name="DI|tRedshiftConnection" hidden="true" family="Databases/Amazon/Redshift"/>
+    <componentsSettings xmi:id="_g5vZGULMEeeGfMVCFmCKtg" name="DI|tAmazonMysqlClose" hidden="true" family="Databases/Amazon/MySQL"/>
+    <componentsSettings xmi:id="_g5vZGkLMEeeGfMVCFmCKtg" name="DI|tAmazonMysqlOutput" hidden="true" family="Databases/Amazon/MySQL"/>
+    <componentsSettings xmi:id="_g5vZG0LMEeeGfMVCFmCKtg" name="DI|tEXARow" hidden="true" family="Databases/EXASolution"/>
+    <componentsSettings xmi:id="_g5vZHELMEeeGfMVCFmCKtg" name="DI|tServiceNowConnection" hidden="true" family="Business/ServiceNow"/>
+    <componentsSettings xmi:id="_g5vZHULMEeeGfMVCFmCKtg" name="DI|tSPSSStructure" hidden="true" family="Business_Intelligence/SPSS"/>
+    <componentsSettings xmi:id="_g5vZHkLMEeeGfMVCFmCKtg" name="DI|tMSSqlConnection" hidden="true" family="Databases/MS_SQL_Server"/>
+    <componentsSettings xmi:id="_g5vZH0LMEeeGfMVCFmCKtg" name="DI|tFuzzyMatch" hidden="true" family="Data_Quality/Matching"/>
+    <componentsSettings xmi:id="_g5vZIELMEeeGfMVCFmCKtg" name="DI|tMSSqlConnection" hidden="true" family="ELT/Connections"/>
+    <componentsSettings xmi:id="_g5wAEELMEeeGfMVCFmCKtg" name="DI|tPostgresPlusRollback" hidden="true" family="Databases/PostgresPlus"/>
+    <componentsSettings xmi:id="_g5wAEULMEeeGfMVCFmCKtg" name="DI|tMSAXInput" hidden="true" family="Business/Microsoft_AX"/>
+    <componentsSettings xmi:id="_g5wAEkLMEeeGfMVCFmCKtg" name="DI|tParAccelClose" hidden="true" family="Databases/ParAccel"/>
+    <componentsSettings xmi:id="_g5wAE0LMEeeGfMVCFmCKtg" name="DI|tELTPostgresqlInput" hidden="true" family="ELT/Map/PostgreSQL"/>
+    <componentsSettings xmi:id="_g5wAFELMEeeGfMVCFmCKtg" name="DI|tGSList" hidden="true" family="Cloud/Google Storage"/>
+    <componentsSettings xmi:id="_g5wAFULMEeeGfMVCFmCKtg" name="DI|tAmazonMysqlCommit" hidden="true" family="Databases/Amazon/MySQL"/>
+    <componentsSettings xmi:id="_g5wAFkLMEeeGfMVCFmCKtg" name="DI|tELTSybaseOutput" hidden="true" family="ELT/Map/Sybase"/>
+    <componentsSettings xmi:id="_g5wAF0LMEeeGfMVCFmCKtg" name="DI|tGSGet" hidden="true" family="Cloud/Google Storage"/>
+    <componentsSettings xmi:id="_g5wAGELMEeeGfMVCFmCKtg" name="DI|tOleDbOutput" hidden="true" family="Databases/OleDb"/>
+    <componentsSettings xmi:id="_g5wAGULMEeeGfMVCFmCKtg" name="DI|tPaloOutput" hidden="true" family="Business_Intelligence/OLAP_Cube/Palo"/>
+    <componentsSettings xmi:id="_g5wAGkLMEeeGfMVCFmCKtg" name="DI|tMSSqlCommit" hidden="true" family="Databases/MS_SQL_Server"/>
+    <componentsSettings xmi:id="_g5wAG0LMEeeGfMVCFmCKtg" name="DI|tGoogleGeocoder" hidden="true" family="Data_Quality/Address"/>
+    <componentsSettings xmi:id="_g5wAHELMEeeGfMVCFmCKtg" name="DI|tMSSqlLastInsertId" hidden="true" family="Databases/MS_SQL_Server"/>
+    <componentsSettings xmi:id="_g5wAHULMEeeGfMVCFmCKtg" name="DI|tJDBCCommit" hidden="true" family="Databases/DB_JDBC"/>
+    <componentsSettings xmi:id="_g5wAHkLMEeeGfMVCFmCKtg" name="DI|tLoqateAddressRow" hidden="true" family="Data_Quality/Address/Loqate"/>
+    <componentsSettings xmi:id="_g5wAH0LMEeeGfMVCFmCKtg" name="DI|tMSAXOutput" hidden="true" family="Business/Microsoft_AX"/>
+    <componentsSettings xmi:id="_g5wAIELMEeeGfMVCFmCKtg" name="DI|tELTTeradataOutput" hidden="true" family="ELT/Map/Teradata"/>
+    <componentsSettings xmi:id="_g5wAIULMEeeGfMVCFmCKtg" name="DI|tAmazonEMRListInstances" hidden="true" family="Cloud/Amazon/EMR"/>
+    <componentsSettings xmi:id="_g5wAIkLMEeeGfMVCFmCKtg" name="DI|tAmazonAuroraOutput" hidden="true" family="Databases/Amazon/Aurora"/>
+    <componentsSettings xmi:id="_g5wAI0LMEeeGfMVCFmCKtg" name="DI|tSybaseIQOutputBulkExec" hidden="true" family="Databases/Sybase"/>
+    <componentsSettings xmi:id="_g5wAJELMEeeGfMVCFmCKtg" name="DI|tELTMSSqlInput" hidden="true" family="ELT/Map/MSSql"/>
+    <componentsSettings xmi:id="_g5wAJULMEeeGfMVCFmCKtg" name="DI|tRedshiftCommit" hidden="true" family="Databases/Amazon/Redshift"/>
+    <componentsSettings xmi:id="_g5wAJkLMEeeGfMVCFmCKtg" name="DI|tOracleSCDELT" hidden="true" family="Databases/Oracle"/>
+    <componentsSettings xmi:id="_g5wAJ0LMEeeGfMVCFmCKtg" name="DI|tPaloDimensionList" hidden="true" family="Business_Intelligence/OLAP_Cube/Palo"/>
+    <componentsSettings xmi:id="_g5wAKELMEeeGfMVCFmCKtg" name="DI|tTeradataTPump" hidden="true" family="Databases/Teradata"/>
+    <componentsSettings xmi:id="_g5wAKULMEeeGfMVCFmCKtg" name="DI|tThresholdViolationAlert" hidden="true" family="Data_Quality"/>
+    <componentsSettings xmi:id="_g5wAKkLMEeeGfMVCFmCKtg" name="DI|tMSSqlClose" hidden="true" family="Databases/MS_SQL_Server"/>
+    <componentsSettings xmi:id="_g5wAK0LMEeeGfMVCFmCKtg" name="DI|tSalesforceWaveBulkExec" hidden="true" family="Business/Salesforce"/>
+    <componentsSettings xmi:id="_g5wALELMEeeGfMVCFmCKtg" name="DI|tSPSSProperties" hidden="true" family="Business_Intelligence/SPSS"/>
+    <componentsSettings xmi:id="_g5wALULMEeeGfMVCFmCKtg" name="DI|tDB2CDC" hidden="true" family="Databases/DB2"/>
+    <componentsSettings xmi:id="_g5wALkLMEeeGfMVCFmCKtg" name="DI|tInformixCDC" hidden="true" family="Databases/Informix"/>
+    <componentsSettings xmi:id="_g5wAL0LMEeeGfMVCFmCKtg" name="DI|tOracleSP" hidden="true" family="Databases/Oracle"/>
+    <componentsSettings xmi:id="_g5wAMELMEeeGfMVCFmCKtg" name="DI|tGoogleDrivePut" hidden="true" family="Cloud/Google Drive"/>
+    <componentsSettings xmi:id="_g5wAMULMEeeGfMVCFmCKtg" name="DI|tFirebirdCommit" hidden="true" family="Databases/FireBird"/>
+    <componentsSettings xmi:id="_g5wAMkLMEeeGfMVCFmCKtg" name="DI|tGroovyFile" hidden="true" family="Custom_Code"/>
+    <componentsSettings xmi:id="_g5wAM0LMEeeGfMVCFmCKtg" name="DI|tAmazonMysqlInput" hidden="true" family="Databases/Amazon/MySQL"/>
+    <componentsSettings xmi:id="_g5wANELMEeeGfMVCFmCKtg" name="DI|tELTSybaseMap" hidden="true" family="ELT/Map/Sybase"/>
+    <componentsSettings xmi:id="_g5wANULMEeeGfMVCFmCKtg" name="DI|tSQLTemplateCommit" hidden="true" family="ELT/SQLTemplate"/>
+    <componentsSettings xmi:id="_g5wANkLMEeeGfMVCFmCKtg" name="DI|tDqReportRun" hidden="true" family="Data_Quality"/>
+    <componentsSettings xmi:id="_g5wAN0LMEeeGfMVCFmCKtg" name="DI|tUniqRow" hidden="true" family="Data_Quality"/>
+    <componentsSettings xmi:id="_g5wAOELMEeeGfMVCFmCKtg" name="DI|tDB2Connection" hidden="true" family="ELT/Connections"/>
+    <componentsSettings xmi:id="_g5wAOULMEeeGfMVCFmCKtg" name="DI|tPostgresqlInvalidRows" hidden="true" family="Databases/PostgreSQL"/>
+    <componentsSettings xmi:id="_g5wAOkLMEeeGfMVCFmCKtg" name="DI|tSAPInfoCubeInput" hidden="true" family="Business/SAP"/>
+    <componentsSettings xmi:id="_g5wAO0LMEeeGfMVCFmCKtg" name="DI|tBonitaInstantiateProcess" hidden="true" family="Business/Bonita"/>
+    <componentsSettings xmi:id="_g5wAPELMEeeGfMVCFmCKtg" name="DI|tLDAPOutput" hidden="true" family="Databases/LDAP"/>
+    <componentsSettings xmi:id="_g5wAPULMEeeGfMVCFmCKtg" name="DI|tPostgresPlusOutputBulk" hidden="true" family="Databases/PostgresPlus"/>
+    <componentsSettings xmi:id="_g5wAPkLMEeeGfMVCFmCKtg" name="DI|tAmazonOracleRollback" hidden="true" family="Cloud/Amazon/Oracle"/>
+    <componentsSettings xmi:id="_g5wAP0LMEeeGfMVCFmCKtg" name="DI|tAS400Connection" hidden="true" family="Databases/AS400"/>
+    <componentsSettings xmi:id="_g5wAQELMEeeGfMVCFmCKtg" name="DI|tPostgresqlCommit" hidden="true" family="Databases/PostgreSQL"/>
+    <componentsSettings xmi:id="_g5wAQULMEeeGfMVCFmCKtg" name="DI|tELTTeradataInput" hidden="true" family="ELT/Map/Teradata"/>
+    <componentsSettings xmi:id="_g5wAQkLMEeeGfMVCFmCKtg" name="DI|tBoxDelete" hidden="true" family="Cloud/Box"/>
+    <componentsSettings xmi:id="_g5wAQ0LMEeeGfMVCFmCKtg" name="DI|tOracleCDC" hidden="true" family="Databases/Oracle"/>
+    <componentsSettings xmi:id="_g5wARELMEeeGfMVCFmCKtg" name="DI|tSasInput" hidden="true" family="Databases/Sas"/>
+    <componentsSettings xmi:id="_g5wARULMEeeGfMVCFmCKtg" name="DI|tRuleSurvivorship" hidden="true" family="Data_Quality/Survivorship"/>
+    <componentsSettings xmi:id="_g5wARkLMEeeGfMVCFmCKtg" name="DI|tPostgresqlInvalidRows" hidden="true" family="Data_Quality/Matching/Pattern matching"/>
+    <componentsSettings xmi:id="_g5wAR0LMEeeGfMVCFmCKtg" name="DI|tMarketoListOperation" hidden="true" family="Cloud/Marketo"/>
+    <componentsSettings xmi:id="_g5wASELMEeeGfMVCFmCKtg" name="DI|tVerticaOutputBulk" hidden="true" family="Databases/Vertica"/>
+    <componentsSettings xmi:id="_g5wASULMEeeGfMVCFmCKtg" name="DI|tParAccelBulkExec" hidden="true" family="Databases/ParAccel"/>
+    <componentsSettings xmi:id="_g5wASkLMEeeGfMVCFmCKtg" name="DI|tPostgresqlSCDELT" hidden="true" family="Databases/PostgreSQL"/>
+    <componentsSettings xmi:id="_g5wAS0LMEeeGfMVCFmCKtg" name="DI|tOracleSCD" hidden="true" family="Business_Intelligence/DB_SCD"/>
+    <componentsSettings xmi:id="_g5wATELMEeeGfMVCFmCKtg" name="DI|tBigQueryBulkExec" hidden="true" family="Big Data/Google BigQuery"/>
+    <componentsSettings xmi:id="_g5wATULMEeeGfMVCFmCKtg" name="DI|tPostgresqlBulkExec" hidden="true" family="Databases/PostgreSQL"/>
+    <componentsSettings xmi:id="_g5wATkLMEeeGfMVCFmCKtg" name="DI|tVectorWiseInput" hidden="true" family="Databases/VectorWise"/>
+    <componentsSettings xmi:id="_g5wAT0LMEeeGfMVCFmCKtg" name="DI|tPostgresqlInput" hidden="true" family="Databases/PostgreSQL"/>
+    <componentsSettings xmi:id="_g5wAUELMEeeGfMVCFmCKtg" name="DI|tSAPTableInput" hidden="true" family="Databases/SAP"/>
+    <componentsSettings xmi:id="_g5wAUULMEeeGfMVCFmCKtg" name="DI|tRedshiftOutputBulk" hidden="true" family="Databases/Amazon/Redshift"/>
+    <componentsSettings xmi:id="_g5wAUkLMEeeGfMVCFmCKtg" name="DI|tFirstnameMatch" hidden="true" family="Data_Quality/Standardization"/>
+    <componentsSettings xmi:id="_g5wAU0LMEeeGfMVCFmCKtg" name="DI|tGSConnection" hidden="true" family="Big Data/Google Storage"/>
+    <componentsSettings xmi:id="_g5wAVELMEeeGfMVCFmCKtg" name="DI|tNetsuiteOutput" hidden="true" family="Cloud/NetSuite"/>
+    <componentsSettings xmi:id="_g5wAVULMEeeGfMVCFmCKtg" name="DI|tELTVerticaMap" hidden="true" family="ELT/Map/Vertica"/>
+    <componentsSettings xmi:id="_g5wAVkLMEeeGfMVCFmCKtg" name="DI|tOracleSCDELT" hidden="true" family="Business_Intelligence/DB_SCD"/>
+    <componentsSettings xmi:id="_g5wAV0LMEeeGfMVCFmCKtg" name="DI|tFirebirdClose" hidden="true" family="Databases/FireBird"/>
+    <componentsSettings xmi:id="_g5wAWELMEeeGfMVCFmCKtg" name="DI|tHiveClose" hidden="true" family="Databases/Hive"/>
+    <componentsSettings xmi:id="_g5wAWULMEeeGfMVCFmCKtg" name="DI|tSQLTemplate" hidden="true" family="ELT/SQLTemplate"/>
+    <componentsSettings xmi:id="_g5wAWkLMEeeGfMVCFmCKtg" name="DI|tServiceNowConnection" hidden="true" family="Cloud/ServiceNow"/>
+    <componentsSettings xmi:id="_g5wAW0LMEeeGfMVCFmCKtg" name="DI|tIngresClose" hidden="true" family="Databases/Ingres"/>
+    <componentsSettings xmi:id="_g5wAXELMEeeGfMVCFmCKtg" name="DI|tInformixConnection" hidden="true" family="Databases/Informix"/>
+    <componentsSettings xmi:id="_g5wAXULMEeeGfMVCFmCKtg" name="DI|tEXABulkExec" hidden="true" family="Databases/EXASolution"/>
+    <componentsSettings xmi:id="_g5wAXkLMEeeGfMVCFmCKtg" name="DI|tMysqlTableList" hidden="true" family="Databases/MySQL"/>
+    <componentsSettings xmi:id="_g5wAX0LMEeeGfMVCFmCKtg" name="DI|tHL7Output" hidden="true" family="Business/Healthcare"/>
+    <componentsSettings xmi:id="_g5wAYELMEeeGfMVCFmCKtg" name="DI|tPaloRule" hidden="true" family="Business_Intelligence/OLAP_Cube/Palo"/>
+    <componentsSettings xmi:id="_g5wAYULMEeeGfMVCFmCKtg" name="DI|tAzureStorageDelete" hidden="true" family="Cloud/Azure Storage"/>
+    <componentsSettings xmi:id="_g5wAYkLMEeeGfMVCFmCKtg" name="DI|tVerticaClose" hidden="true" family="Databases/Vertica"/>
+    <componentsSettings xmi:id="_g5wnIELMEeeGfMVCFmCKtg" name="DI|tCombinedSQLAggregate" hidden="true" family="ELT/Combined SQL"/>
+    <componentsSettings xmi:id="_g5wnIULMEeeGfMVCFmCKtg" name="DI|tDropboxConnection" hidden="true" family="Cloud/Dropbox"/>
+    <componentsSettings xmi:id="_g5wnIkLMEeeGfMVCFmCKtg" name="DI|tNetezzaConnection" hidden="true" family="Databases/Netezza"/>
+    <componentsSettings xmi:id="_g5wnI0LMEeeGfMVCFmCKtg" name="DI|tHSQLDbOutput" hidden="true" family="Databases/HSQLDb"/>
+    <componentsSettings xmi:id="_g5wnJELMEeeGfMVCFmCKtg" name="DI|tBatchAddressRowCloud" hidden="true" family="Data_Quality/Address"/>
+    <componentsSettings xmi:id="_g5wnJULMEeeGfMVCFmCKtg" name="DI|tJavaFlex" hidden="true" family="Custom_Code"/>
+    <componentsSettings xmi:id="_g5wnJkLMEeeGfMVCFmCKtg" name="DI|tGSList" hidden="true" family="Big Data/Google Storage"/>
+    <componentsSettings xmi:id="_g5wnJ0LMEeeGfMVCFmCKtg" name="DI|tServiceNowOutput" hidden="true" family="Cloud/ServiceNow"/>
+    <componentsSettings xmi:id="_g5wnKELMEeeGfMVCFmCKtg" name="DI|tJDBCRollback" hidden="true" family="Databases/DB_JDBC"/>
+    <componentsSettings xmi:id="_g5wnKULMEeeGfMVCFmCKtg" name="DI|tPaloDatabaseList" hidden="true" family="Business_Intelligence/OLAP_Cube/Palo"/>
+    <componentsSettings xmi:id="_g5wnKkLMEeeGfMVCFmCKtg" name="DI|tSugarCRMInput" hidden="true" family="Business/SugarCRM"/>
+    <componentsSettings xmi:id="_g5wnK0LMEeeGfMVCFmCKtg" name="DI|tRedshiftClose" hidden="true" family="Cloud/Amazon/Redshift"/>
+    <componentsSettings xmi:id="_g5wnLELMEeeGfMVCFmCKtg" name="DI|tMSSqlBulkExec" hidden="true" family="Databases/MS_SQL_Server"/>
+    <componentsSettings xmi:id="_g5wnLULMEeeGfMVCFmCKtg" name="DI|tDropboxGet" hidden="true" family="Cloud/Dropbox"/>
+    <componentsSettings xmi:id="_g5wnLkLMEeeGfMVCFmCKtg" name="DI|tUniservRTMailOutput" hidden="true" family="Data_Quality/Uniserv"/>
+    <componentsSettings xmi:id="_g5wnL0LMEeeGfMVCFmCKtg" name="DI|tSAPConnection" hidden="true" family="Business/SAP"/>
+    <componentsSettings xmi:id="_g5wnMELMEeeGfMVCFmCKtg" name="DI|tNetezzaNzLoad" hidden="true" family="Databases/Netezza"/>
+    <componentsSettings xmi:id="_g5wnMULMEeeGfMVCFmCKtg" name="DI|tIngresOutputBulkExec" hidden="true" family="Databases/Ingres"/>
+    <componentsSettings xmi:id="_g5wnMkLMEeeGfMVCFmCKtg" name="DI|tOracleSCD" hidden="true" family="Databases/Oracle"/>
+    <componentsSettings xmi:id="_g5wnM0LMEeeGfMVCFmCKtg" name="DI|tAccessOutput" hidden="true" family="Databases/Access"/>
+    <componentsSettings xmi:id="_g5wnNELMEeeGfMVCFmCKtg" name="DI|tAmazonAuroraRollback" hidden="true" family="Databases/Amazon/Aurora"/>
+    <componentsSettings xmi:id="_g5wnNULMEeeGfMVCFmCKtg" name="DI|tSQLiteClose" hidden="true" family="Databases/SQLite"/>
+    <componentsSettings xmi:id="_g5wnNkLMEeeGfMVCFmCKtg" name="DI|tSasOutput" hidden="true" family="Databases/Sas"/>
+    <componentsSettings xmi:id="_g5wnN0LMEeeGfMVCFmCKtg" name="DI|tParseRecordSet" hidden="true" family="Databases"/>
+    <componentsSettings xmi:id="_g5wnOELMEeeGfMVCFmCKtg" name="DI|tGSBucketList" hidden="true" family="Cloud/Google Storage"/>
+    <componentsSettings xmi:id="_g5wnOULMEeeGfMVCFmCKtg" name="DI|tNetezzaSCD" hidden="true" family="Business_Intelligence/DB_SCD"/>
+    <componentsSettings xmi:id="_g5wnOkLMEeeGfMVCFmCKtg" name="DI|tRedshiftOutput" hidden="true" family="Databases/Amazon/Redshift"/>
+    <componentsSettings xmi:id="_g5wnO0LMEeeGfMVCFmCKtg" name="DI|tAmazonAuroraClose" hidden="true" family="Databases/Amazon/Aurora"/>
+    <componentsSettings xmi:id="_g5wnPELMEeeGfMVCFmCKtg" name="DI|tGreenplumBulkExec" hidden="true" family="Databases/Greenplum"/>
+    <componentsSettings xmi:id="_g5wnPULMEeeGfMVCFmCKtg" name="DI|tCreateTable" hidden="true" family="Databases"/>
+    <componentsSettings xmi:id="_g5wnPkLMEeeGfMVCFmCKtg" name="DI|tAmazonMysqlClose" hidden="true" family="Cloud/Amazon/MySQL"/>
+    <componentsSettings xmi:id="_g5wnP0LMEeeGfMVCFmCKtg" name="DI|tPostgresqlOutputBulkExec" hidden="true" family="Databases/PostgreSQL"/>
+    <componentsSettings xmi:id="_g5wnQELMEeeGfMVCFmCKtg" name="DI|tMysqlOutput" hidden="true" family="Databases/MySQL"/>
+    <componentsSettings xmi:id="_g5wnQULMEeeGfMVCFmCKtg" name="DI|tDropboxDelete" hidden="true" family="Cloud/Dropbox"/>
+    <componentsSettings xmi:id="_g5wnQkLMEeeGfMVCFmCKtg" name="DI|tAmazonAuroraInput" hidden="true" family="Databases/Amazon/Aurora"/>
+    <componentsSettings xmi:id="_g5wnQ0LMEeeGfMVCFmCKtg" name="DI|tPostgresqlConnection" hidden="true" family="ELT/Connections"/>
+    <componentsSettings xmi:id="_g5wnRELMEeeGfMVCFmCKtg" name="DI|tJDBCColumnList" hidden="true" family="Databases/DB_JDBC"/>
+    <componentsSettings xmi:id="_g5wnRULMEeeGfMVCFmCKtg" name="DI|tAccessCommit" hidden="true" family="Databases/Access"/>
+    <componentsSettings xmi:id="_g5wnRkLMEeeGfMVCFmCKtg" name="DI|tInformixCommit" hidden="true" family="Databases/Informix"/>
+    <componentsSettings xmi:id="_g5xOMELMEeeGfMVCFmCKtg" name="DI|tSybaseSCDELT" hidden="true" family="Business_Intelligence/DB_SCD"/>
+    <componentsSettings xmi:id="_g5xOMULMEeeGfMVCFmCKtg" name="DI|tEXACommit" hidden="true" family="Databases/EXASolution"/>
+    <componentsSettings xmi:id="_g5xOMkLMEeeGfMVCFmCKtg" name="DI|tSAPBWInput" hidden="true" family="Business/SAP"/>
+    <componentsSettings xmi:id="_g5xOM0LMEeeGfMVCFmCKtg" name="DI|tAS400Close" hidden="true" family="Databases/AS400"/>
+    <componentsSettings xmi:id="_g5xONELMEeeGfMVCFmCKtg" name="DI|tSAPInfoCubeInput" hidden="true" family="Databases/SAP"/>
+    <componentsSettings xmi:id="_g5xONULMEeeGfMVCFmCKtg" name="DI|tMSSqlOutput" hidden="true" family="Databases/MS_SQL_Server"/>
+    <componentsSettings xmi:id="_g5xONkLMEeeGfMVCFmCKtg" name="DI|tSybaseInput" hidden="true" family="Databases/Sybase"/>
+    <componentsSettings xmi:id="_g5xON0LMEeeGfMVCFmCKtg" name="DI|tOracleInvalidRows" hidden="true" family="Databases/Oracle"/>
+    <componentsSettings xmi:id="_g5xOOELMEeeGfMVCFmCKtg" name="DI|tQASAddressRow" hidden="true" family="Data_Quality/Address/Experian QAS"/>
+    <componentsSettings xmi:id="_g5xOOULMEeeGfMVCFmCKtg" name="DI|tDB2SCDELT" hidden="true" family="Databases/DB2"/>
+    <componentsSettings xmi:id="_g5x1QELMEeeGfMVCFmCKtg" name="DI|tSybaseOutputBulkExec" hidden="true" family="Databases/Sybase"/>
+    <componentsSettings xmi:id="_g5x1QULMEeeGfMVCFmCKtg" name="DI|tRedshiftClose" hidden="true" family="Databases/Amazon/Redshift"/>
+    <componentsSettings xmi:id="_g5x1QkLMEeeGfMVCFmCKtg" name="DI|tAS400Rollback" hidden="true" family="Databases/AS400"/>
+    <componentsSettings xmi:id="_g5x1Q0LMEeeGfMVCFmCKtg" name="DI|tOracleBulkExec" hidden="true" family="Databases/Oracle"/>
+    <componentsSettings xmi:id="_g5x1RELMEeeGfMVCFmCKtg" name="DI|tSQLTemplateAggregate" hidden="true" family="ELT/SQLTemplate"/>
+    <componentsSettings xmi:id="_g5x1RULMEeeGfMVCFmCKtg" name="DI|tSAPIDocOutput" hidden="true" family="Business/SAP"/>
+    <componentsSettings xmi:id="_g5x1RkLMEeeGfMVCFmCKtg" name="DI|tRedshiftRollback" hidden="true" family="Databases/Amazon/Redshift"/>
+    <componentsSettings xmi:id="_g5x1R0LMEeeGfMVCFmCKtg" name="DI|tELTVerticaInput" hidden="true" family="ELT/Map/Vertica"/>
+    <componentsSettings xmi:id="_g5x1SELMEeeGfMVCFmCKtg" name="DI|tSybaseBulkExec" hidden="true" family="Databases/Sybase"/>
+    <componentsSettings xmi:id="_g5x1SULMEeeGfMVCFmCKtg" name="DI|tSalesforceWaveOutputBulkExec" hidden="true" family="Business/Salesforce"/>
+    <componentsSettings xmi:id="_g5x1SkLMEeeGfMVCFmCKtg" name="DI|tIngresCommit" hidden="true" family="Databases/Ingres"/>
+    <componentsSettings xmi:id="_g5x1S0LMEeeGfMVCFmCKtg" name="DI|tMysqlSCD" hidden="true" family="Business_Intelligence/DB_SCD"/>
+    <componentsSettings xmi:id="_g5x1TELMEeeGfMVCFmCKtg" name="DI|tRedshiftInput" hidden="true" family="Databases/Amazon/Redshift"/>
+    <componentsSettings xmi:id="_g5x1TULMEeeGfMVCFmCKtg" name="DI|tPostgresPlusRow" hidden="true" family="Databases/PostgresPlus"/>
+    <componentsSettings xmi:id="_g5ycUELMEeeGfMVCFmCKtg" name="DI|tSybaseOutput" hidden="true" family="Databases/Sybase"/>
+    <componentsSettings xmi:id="_g5ycUULMEeeGfMVCFmCKtg" name="DI|tOracleInvalidRows" hidden="true" family="Data_Quality/Matching/Pattern matching"/>
+    <componentsSettings xmi:id="_g5ycUkLMEeeGfMVCFmCKtg" name="DI|tAzureStorageContainerDelete" hidden="true" family="Cloud/Azure Storage"/>
+    <componentsSettings xmi:id="_g5ycU0LMEeeGfMVCFmCKtg" name="DI|tMSSqlTableList" hidden="true" family="Databases/MS_SQL_Server"/>
+    <componentsSettings xmi:id="_g5ycVELMEeeGfMVCFmCKtg" name="DI|tVectorWiseCommit" hidden="true" family="Databases/VectorWise"/>
+    <componentsSettings xmi:id="_g5ycVULMEeeGfMVCFmCKtg" name="DI|tGSBucketCreate" hidden="true" family="Big Data/Google Storage"/>
+    <componentsSettings xmi:id="_g5ycVkLMEeeGfMVCFmCKtg" name="DI|tGreenplumCommit" hidden="true" family="Databases/Greenplum"/>
+    <componentsSettings xmi:id="_g5ycV0LMEeeGfMVCFmCKtg" name="DI|tDB2SCD" hidden="true" family="Business_Intelligence/DB_SCD"/>
+    <componentsSettings xmi:id="_g5ycWELMEeeGfMVCFmCKtg" name="DI|tAmazonOracleInput" hidden="true" family="Cloud/Amazon/Oracle"/>
+    <componentsSettings xmi:id="_g5ycWULMEeeGfMVCFmCKtg" name="DI|tAS400Input" hidden="true" family="Databases/AS400"/>
+    <componentsSettings xmi:id="_g5ycWkLMEeeGfMVCFmCKtg" name="DI|tPostgresqlClose" hidden="true" family="Databases/PostgreSQL"/>
+    <componentsSettings xmi:id="_g5ycW0LMEeeGfMVCFmCKtg" name="DI|tBigQueryOutput" hidden="true" family="Big Data/Google BigQuery"/>
+    <componentsSettings xmi:id="_g5ycXELMEeeGfMVCFmCKtg" name="DI|tOracleTableList" hidden="true" family="Databases/Oracle"/>
+    <componentsSettings xmi:id="_g5ycXULMEeeGfMVCFmCKtg" name="DI|tPostgresqlRollback" hidden="true" family="Databases/PostgreSQL"/>
+    <componentsSettings xmi:id="_g5zDYELMEeeGfMVCFmCKtg" name="DI|tVectorWiseRow" hidden="true" family="Databases/VectorWise"/>
+    <componentsSettings xmi:id="_g5zDYULMEeeGfMVCFmCKtg" name="DI|tSageX3Input" hidden="true" family="Business/SageX3"/>
+    <componentsSettings xmi:id="_g5zDYkLMEeeGfMVCFmCKtg" name="DI|tMysqlRollback" hidden="true" family="Databases/MySQL"/>
+    <componentsSettings xmi:id="_g5zDY0LMEeeGfMVCFmCKtg" name="DI|tIngresCDC" hidden="true" family="Databases/Ingres"/>
+    <componentsSettings xmi:id="_g5zDZELMEeeGfMVCFmCKtg" name="DI|tSAPCommit" hidden="true" family="Business/SAP"/>
+    <componentsSettings xmi:id="_g5zDZULMEeeGfMVCFmCKtg" name="DI|tPostgresPlusBulkExec" hidden="true" family="Databases/PostgresPlus"/>
+    <componentsSettings xmi:id="_g5zDZkLMEeeGfMVCFmCKtg" name="DI|tBigQueryOutputBulk" hidden="true" family="Big Data/Google BigQuery"/>
+    <componentsSettings xmi:id="_g5zDZ0LMEeeGfMVCFmCKtg" name="DI|tAmazonOracleConnection" hidden="true" family="Databases/Amazon/Oracle"/>
+    <componentsSettings xmi:id="_g5zDaELMEeeGfMVCFmCKtg" name="DI|tLDAPInput" hidden="true" family="Databases/LDAP"/>
+    <componentsSettings xmi:id="_g5zDaULMEeeGfMVCFmCKtg" name="DI|tPostgresPlusConnection" hidden="true" family="Databases/PostgresPlus"/>
+    <componentsSettings xmi:id="_g5zDakLMEeeGfMVCFmCKtg" name="DI|tAmazonMysqlConnection" hidden="true" family="Databases/Amazon/MySQL"/>
+    <componentsSettings xmi:id="_g5zDa0LMEeeGfMVCFmCKtg" name="DI|tDB2SCDELT" hidden="true" family="Business_Intelligence/DB_SCD"/>
+    <componentsSettings xmi:id="_g5zDbELMEeeGfMVCFmCKtg" name="DI|tGreenplumSCD" hidden="true" family="Business_Intelligence/DB_SCD"/>
+    <componentsSettings xmi:id="_g5zDbULMEeeGfMVCFmCKtg" name="DI|tOpenbravoERPOutput" hidden="true" family="Business/Open Bravo"/>
+    <componentsSettings xmi:id="_g5zDbkLMEeeGfMVCFmCKtg" name="DI|tELTOracleInput" hidden="true" family="ELT/Map/Oracle"/>
+    <componentsSettings xmi:id="_g5zDb0LMEeeGfMVCFmCKtg" name="DI|tMSSqlSCD" hidden="true" family="Business_Intelligence/DB_SCD"/>
+    <componentsSettings xmi:id="_g5zDcELMEeeGfMVCFmCKtg" name="DI|tAzureStorageGet" hidden="true" family="Cloud/Azure Storage"/>
+    <componentsSettings xmi:id="_g5zDcULMEeeGfMVCFmCKtg" name="DI|tAS400Connection" hidden="true" family="ELT/Connections"/>
+    <componentsSettings xmi:id="_g5zDckLMEeeGfMVCFmCKtg" name="DI|tMicrosoftCrmInput" hidden="true" family="Business/Microsoft_CRM"/>
+    <componentsSettings xmi:id="_g5zDc0LMEeeGfMVCFmCKtg" name="DI|tInterbaseConnection" hidden="true" family="Databases/Interbase"/>
+    <componentsSettings xmi:id="_g5zDdELMEeeGfMVCFmCKtg" name="DI|tSQLiteInput" hidden="true" family="Databases/SQLite"/>
+    <componentsSettings xmi:id="_g5zDdULMEeeGfMVCFmCKtg" name="DI|tPostgresPlusSCDELT" hidden="true" family="Business_Intelligence/DB_SCD"/>
+    <componentsSettings xmi:id="_g5zDdkLMEeeGfMVCFmCKtg" name="DI|tAmazonAuroraConnection" hidden="true" family="Cloud/Amazon/Aurora"/>
+    <componentsSettings xmi:id="_g5zDd0LMEeeGfMVCFmCKtg" name="DI|tSybaseSP" hidden="true" family="Databases/Sybase"/>
+    <componentsSettings xmi:id="_g5zDeELMEeeGfMVCFmCKtg" name="DI|tSybaseIQBulkExec" hidden="true" family="Databases/Sybase"/>
+    <componentsSettings xmi:id="_g5zDeULMEeeGfMVCFmCKtg" name="DI|tSugarCRMOutput" hidden="true" family="Business/SugarCRM"/>
+    <componentsSettings xmi:id="_g5zDekLMEeeGfMVCFmCKtg" name="DI|tS3Delete" hidden="true" family="Cloud/Amazon/S3"/>
+    <componentsSettings xmi:id="_g5zDe0LMEeeGfMVCFmCKtg" name="DI|tOracleOutput" hidden="true" family="Databases/Oracle"/>
+    <componentsSettings xmi:id="_g5zDfELMEeeGfMVCFmCKtg" name="DI|tOracleInput" hidden="true" family="Databases/Oracle"/>
+    <componentsSettings xmi:id="_g5zDfULMEeeGfMVCFmCKtg" name="DI|tParAccelCommit" hidden="true" family="Databases/ParAccel"/>
+    <componentsSettings xmi:id="_g5zDfkLMEeeGfMVCFmCKtg" name="DI|tTeradataSCDELT" hidden="true" family="Business_Intelligence/DB_SCD"/>
+    <componentsSettings xmi:id="_g5zDf0LMEeeGfMVCFmCKtg" name="DI|tJDBCTableList" hidden="true" family="Databases/DB_JDBC"/>
+    <componentsSettings xmi:id="_g5zDgELMEeeGfMVCFmCKtg" name="DI|tPaloConnection" hidden="true" family="Business_Intelligence/OLAP_Cube/Palo"/>
+    <componentsSettings xmi:id="_g5zDgULMEeeGfMVCFmCKtg" name="DI|tStem" hidden="true" family="Data_Quality"/>
+    <componentsSettings xmi:id="_g5zDgkLMEeeGfMVCFmCKtg" name="DI|tPostgresPlusOutputBulkExec" hidden="true" family="Databases/PostgresPlus"/>
+    <componentsSettings xmi:id="_g5zDg0LMEeeGfMVCFmCKtg" name="DI|tDB2Output" hidden="true" family="Databases/DB2"/>
+    <componentsSettings xmi:id="_g5zDhELMEeeGfMVCFmCKtg" name="DI|tSAPBapi" hidden="true" family="Business/SAP"/>
+    <componentsSettings xmi:id="_g5zDhULMEeeGfMVCFmCKtg" name="DI|tPostgresPlusInput" hidden="true" family="Databases/PostgresPlus"/>
+    <componentsSettings xmi:id="_g5zqcELMEeeGfMVCFmCKtg" name="DI|tMultiPatternCheck" hidden="true" family="Data_Quality/Matching/Pattern matching"/>
+    <componentsSettings xmi:id="_g5zqcULMEeeGfMVCFmCKtg" name="DI|tIngresRollback" hidden="true" family="Databases/Ingres"/>
+    <componentsSettings xmi:id="_g5zqckLMEeeGfMVCFmCKtg" name="DI|tVectorWiseOutput" hidden="true" family="Databases/VectorWise"/>
+    <componentsSettings xmi:id="_g5zqc0LMEeeGfMVCFmCKtg" name="DI|tOracleClose" hidden="true" family="Databases/Oracle"/>
+    <componentsSettings xmi:id="_g5zqdELMEeeGfMVCFmCKtg" name="DI|tNetezzaConnection" hidden="true" family="ELT/Connections"/>
+    <componentsSettings xmi:id="_g5zqdULMEeeGfMVCFmCKtg" name="DI|tAmazonOracleOutput" hidden="true" family="Cloud/Amazon/Oracle"/>
+    <componentsSettings xmi:id="_g5zqdkLMEeeGfMVCFmCKtg" name="DI|tRedshiftUnload" hidden="true" family="Databases/Amazon/Redshift"/>
+    <componentsSettings xmi:id="_g5zqd0LMEeeGfMVCFmCKtg" name="DI|tHiveClose" hidden="true" family="Big Data/Hive"/>
+    <componentsSettings xmi:id="_g5zqeELMEeeGfMVCFmCKtg" name="DI|tOracleCDCOutput" hidden="true" family="Databases/Oracle"/>
+    <componentsSettings xmi:id="_g5zqeULMEeeGfMVCFmCKtg" name="DI|tPostgresqlSCDELT" hidden="true" family="Business_Intelligence/DB_SCD"/>
+    <componentsSettings xmi:id="_g5zqekLMEeeGfMVCFmCKtg" name="DI|tSQLiteCommit" hidden="true" family="Databases/SQLite"/>
+    <componentsSettings xmi:id="_g5zqe0LMEeeGfMVCFmCKtg" name="DI|tMysqlSP" hidden="true" family="Databases/MySQL"/>
+    <componentsSettings xmi:id="_g5zqfELMEeeGfMVCFmCKtg" name="DI|tLastRegexlibExpressions" hidden="true" family="Data_Quality"/>
+    <componentsSettings xmi:id="_g5zqfULMEeeGfMVCFmCKtg" name="DI|tS3Close" hidden="true" family="Cloud/Amazon/S3"/>
+    <componentsSettings xmi:id="_g5zqfkLMEeeGfMVCFmCKtg" name="DI|tVerticaRow" hidden="true" family="Databases/Vertica"/>
+    <componentsSettings xmi:id="_g5zqf0LMEeeGfMVCFmCKtg" name="DI|tPostgresqlValidRows" hidden="true" family="Data_Quality/Matching/Pattern matching"/>
+    <componentsSettings xmi:id="_g5zqgELMEeeGfMVCFmCKtg" name="DI|tGSDelete" hidden="true" family="Big Data/Google Storage"/>
+    <componentsSettings xmi:id="_g5zqgULMEeeGfMVCFmCKtg" name="DI|tGSCopy" hidden="true" family="Big Data/Google Storage"/>
+    <componentsSettings xmi:id="_g5zqgkLMEeeGfMVCFmCKtg" name="DI|tMSSqlOutputBulkExec" hidden="true" family="Databases/MS_SQL_Server"/>
+    <componentsSettings xmi:id="_g5zqg0LMEeeGfMVCFmCKtg" name="DI|tSybaseSCD" hidden="true" family="Databases/Sybase"/>
+    <componentsSettings xmi:id="_g5zqhELMEeeGfMVCFmCKtg" name="DI|tInformixRow" hidden="true" family="Databases/Informix"/>
+    <componentsSettings xmi:id="_g5zqhULMEeeGfMVCFmCKtg" name="DI|tRedshiftCommit" hidden="true" family="Cloud/Amazon/Redshift"/>
+    <componentsSettings xmi:id="_g5zqhkLMEeeGfMVCFmCKtg" name="DI|tGSBucketCreate" hidden="true" family="Cloud/Google Storage"/>
+    <componentsSettings xmi:id="_g5zqh0LMEeeGfMVCFmCKtg" name="DI|tVectorWiseConnection" hidden="true" family="Databases/VectorWise"/>
+    <componentsSettings xmi:id="_g5zqiELMEeeGfMVCFmCKtg" name="DI|tMySQLInvalidRows" hidden="true" family="Databases/MySQL"/>
+    <componentsSettings xmi:id="_g5zqiULMEeeGfMVCFmCKtg" name="DI|tTeradataTPTUtility" hidden="true" family="Databases/Teradata"/>
+    <componentsSettings xmi:id="_g5zqikLMEeeGfMVCFmCKtg" name="DI|tInterbaseRow" hidden="true" family="Databases/Interbase"/>
+    <componentsSettings xmi:id="_g5zqi0LMEeeGfMVCFmCKtg" name="DI|tParAccelRollback" hidden="true" family="Databases/ParAccel"/>
+    <componentsSettings xmi:id="_g5zqjELMEeeGfMVCFmCKtg" name="DI|tELTJDBCInput" hidden="true" family="ELT/Map/DB_JDBC"/>
+    <componentsSettings xmi:id="_g5zqjULMEeeGfMVCFmCKtg" name="DI|tSQLTemplateRollback" hidden="true" family="ELT/SQLTemplate"/>
+    <componentsSettings xmi:id="_g5zqjkLMEeeGfMVCFmCKtg" name="DI|tMysqlCDC" hidden="true" family="Databases/MySQL"/>
+    <componentsSettings xmi:id="_g5zqj0LMEeeGfMVCFmCKtg" name="DI|tSQLiteOutput" hidden="true" family="Databases/SQLite"/>
+    <componentsSettings xmi:id="_g5zqkELMEeeGfMVCFmCKtg" name="DI|tGreenplumSCD" hidden="true" family="Databases/Greenplum"/>
+    <componentsSettings xmi:id="_g5zqkULMEeeGfMVCFmCKtg" name="DI|tMSSqlRow" hidden="true" family="Databases/MS_SQL_Server"/>
+    <componentsSettings xmi:id="_g5zqkkLMEeeGfMVCFmCKtg" name="DI|tBonitaDeploy" hidden="true" family="Business/Bonita"/>
+    <componentsSettings xmi:id="_g5zqk0LMEeeGfMVCFmCKtg" name="DI|tQASAddressUnknown" hidden="true" family="Data_Quality/Address/Experian QAS"/>
+    <componentsSettings xmi:id="_g50RgELMEeeGfMVCFmCKtg" name="DI|tDB2Rollback" hidden="true" family="Databases/DB2"/>
+    <componentsSettings xmi:id="_g50RgULMEeeGfMVCFmCKtg" name="DI|tAmazonAuroraConnection" hidden="true" family="Databases/Amazon/Aurora"/>
+    <componentsSettings xmi:id="_g50RgkLMEeeGfMVCFmCKtg" name="DI|tDB2SP" hidden="true" family="Databases/DB2"/>
+    <componentsSettings xmi:id="_g50Rg0LMEeeGfMVCFmCKtg" name="DI|tCombinedSQLOutput" hidden="true" family="ELT/Combined SQL"/>
+    <componentsSettings xmi:id="_g50RhELMEeeGfMVCFmCKtg" name="DI|tSynonymSearch" hidden="true" family="Data_Quality/Standardization"/>
+    <componentsSettings xmi:id="_g50RhULMEeeGfMVCFmCKtg" name="DI|tSybaseRollback" hidden="true" family="Databases/Sybase"/>
+    <componentsSettings xmi:id="_g50RhkLMEeeGfMVCFmCKtg" name="DI|tInformixRollback" hidden="true" family="Databases/Informix"/>
+    <componentsSettings xmi:id="_g50Rh0LMEeeGfMVCFmCKtg" name="DI|tStewardshipTaskDelete" hidden="true" family="Data_Quality"/>
+    <componentsSettings xmi:id="_g50RiELMEeeGfMVCFmCKtg" name="DI|tPostgresqlOutput" hidden="true" family="Databases/PostgreSQL"/>
+    <componentsSettings xmi:id="_g50RiULMEeeGfMVCFmCKtg" name="DI|tSageX3Output" hidden="true" family="Business/SageX3"/>
+    <componentsSettings xmi:id="_g50RikLMEeeGfMVCFmCKtg" name="DI|tMarketoOutput" hidden="true" family="Cloud/Marketo"/>
+    <componentsSettings xmi:id="_g50Ri0LMEeeGfMVCFmCKtg" name="DI|tJDBCConnection" hidden="true" family="ELT/Connections"/>
+    <componentsSettings xmi:id="_g50RjELMEeeGfMVCFmCKtg" name="DI|tPaloRuleList" hidden="true" family="Business_Intelligence/OLAP_Cube/Palo"/>
+    <componentsSettings xmi:id="_g50RjULMEeeGfMVCFmCKtg" name="DI|tAccessInput" hidden="true" family="Databases/Access"/>
+    <componentsSettings xmi:id="_g50RjkLMEeeGfMVCFmCKtg" name="DI|tMysqlOutputBulkExec" hidden="true" family="Databases/MySQL"/>
+    <componentsSettings xmi:id="_g50Rj0LMEeeGfMVCFmCKtg" name="DI|tSAPDSOOutput" hidden="true" family="Databases/SAP"/>
+    <componentsSettings xmi:id="_g50RkELMEeeGfMVCFmCKtg" name="DI|tUniservBTGeneric" hidden="true" family="Data_Quality/Uniserv"/>
+    <componentsSettings xmi:id="_g50RkULMEeeGfMVCFmCKtg" name="DI|tAmazonAuroraInput" hidden="true" family="Cloud/Amazon/Aurora"/>
+    <componentsSettings xmi:id="_g50RkkLMEeeGfMVCFmCKtg" name="DI|tPaloClose" hidden="true" family="Business_Intelligence/OLAP_Cube/Palo"/>
+    <componentsSettings xmi:id="_g50Rk0LMEeeGfMVCFmCKtg" name="DI|tPostgresPlusSCD" hidden="true" family="Business_Intelligence/DB_SCD"/>
+    <componentsSettings xmi:id="_g50RlELMEeeGfMVCFmCKtg" name="DI|tHSQLDbInput" hidden="true" family="Databases/HSQLDb"/>
+    <componentsSettings xmi:id="_g50RlULMEeeGfMVCFmCKtg" name="DI|tAmazonMysqlRow" hidden="true" family="Databases/Amazon/MySQL"/>
+    <componentsSettings xmi:id="_g50RlkLMEeeGfMVCFmCKtg" name="DI|tDotNETRow" hidden="true" family="DotNET"/>
+    <componentsSettings xmi:id="_g50Rl0LMEeeGfMVCFmCKtg" name="DI|tAmazonOracleRow" hidden="true" family="Databases/Amazon/Oracle"/>
+    <componentsSettings xmi:id="_g50RmELMEeeGfMVCFmCKtg" name="DI|tNetezzaRollback" hidden="true" family="Databases/Netezza"/>
+    <componentsSettings xmi:id="_g50RmULMEeeGfMVCFmCKtg" name="DI|tPaloDatabase" hidden="true" family="Business_Intelligence/OLAP_Cube/Palo"/>
+    <componentsSettings xmi:id="_g50RmkLMEeeGfMVCFmCKtg" name="DI|tMSSqlCDC" hidden="true" family="Databases/MS_SQL_Server"/>
+    <componentsSettings xmi:id="_g50Rm0LMEeeGfMVCFmCKtg" name="DI|tSAPRollback" hidden="true" family="Business/SAP"/>
+    <componentsSettings xmi:id="_g50RnELMEeeGfMVCFmCKtg" name="DI|tAmazonRedshiftManage" hidden="true" family="Databases/Amazon/Redshift"/>
+    <componentsSettings xmi:id="_g50RnULMEeeGfMVCFmCKtg" name="DI|tMysqlOutputBulk" hidden="true" family="Databases/MySQL"/>
+    <componentsSettings xmi:id="_g50RnkLMEeeGfMVCFmCKtg" name="DI|tRedshiftOutputBulkExec" hidden="true" family="Cloud/Amazon/Redshift"/>
+    <componentsSettings xmi:id="_g50Rn0LMEeeGfMVCFmCKtg" name="DI|tHiveRow" hidden="true" family="Big Data/Hive"/>
+    <componentsSettings xmi:id="_g50RoELMEeeGfMVCFmCKtg" name="DI|tELTJDBCMap" hidden="true" family="ELT/Map/DB_JDBC"/>
+    <componentsSettings xmi:id="_g50RoULMEeeGfMVCFmCKtg" name="DI|tMysqlSCDELT" hidden="true" family="Databases/MySQL"/>
+    <componentsSettings xmi:id="_g50RokLMEeeGfMVCFmCKtg" name="DI|tGreenplumOutputBulk" hidden="true" family="Databases/Greenplum"/>
+    <componentsSettings xmi:id="_g50Ro0LMEeeGfMVCFmCKtg" name="DI|tELTJDBCOutput" hidden="true" family="ELT/Map/DB_JDBC"/>
+    <componentsSettings xmi:id="_g50RpELMEeeGfMVCFmCKtg" name="DI|tBigQueryInput" hidden="true" family="Big Data/Google BigQuery"/>
+    <componentsSettings xmi:id="_g504kELMEeeGfMVCFmCKtg" name="DI|tAmazonRedshiftManage" hidden="true" family="Cloud/Amazon/Redshift"/>
+    <componentsSettings xmi:id="_g504kULMEeeGfMVCFmCKtg" name="DI|tNetezzaInput" hidden="true" family="Databases/Netezza"/>
+    <componentsSettings xmi:id="_g504kkLMEeeGfMVCFmCKtg" name="DI|tJDBCInput" hidden="true" family="Databases/DB_JDBC"/>
+    <componentsSettings xmi:id="_g504k0LMEeeGfMVCFmCKtg" name="DI|tMSSqlSCD" hidden="true" family="Databases/MS_SQL_Server"/>
+    <componentsSettings xmi:id="_g504lELMEeeGfMVCFmCKtg" name="DI|tGreenplumConnection" hidden="true" family="ELT/Connections"/>
+    <componentsSettings xmi:id="_g504lULMEeeGfMVCFmCKtg" name="DI|tTeradataFastLoadUtility" hidden="true" family="Databases/Teradata"/>
+    <componentsSettings xmi:id="_g504lkLMEeeGfMVCFmCKtg" name="DI|tAccessRow" hidden="true" family="Databases/Access"/>
+    <componentsSettings xmi:id="_g504l0LMEeeGfMVCFmCKtg" name="DI|tSybaseCommit" hidden="true" family="Databases/Sybase"/>
+    <componentsSettings xmi:id="_g504mELMEeeGfMVCFmCKtg" name="DI|tTeradataSCD" hidden="true" family="Business_Intelligence/DB_SCD"/>
+    <componentsSettings xmi:id="_g504mULMEeeGfMVCFmCKtg" name="DI|tMysqlSCDELT" hidden="true" family="Business_Intelligence/DB_SCD"/>
+    <componentsSettings xmi:id="_g504mkLMEeeGfMVCFmCKtg" name="DI|tELTPostgresqlOutput" hidden="true" family="ELT/Map/PostgreSQL"/>
+    <componentsSettings xmi:id="_g504m0LMEeeGfMVCFmCKtg" name="DI|tSAPInfoObjectInput" hidden="true" family="Databases/SAP"/>
+    <componentsSettings xmi:id="_g504nELMEeeGfMVCFmCKtg" name="DI|tSQLTemplateMerge" hidden="true" family="ELT/SQLTemplate"/>
+    <componentsSettings xmi:id="_g504nULMEeeGfMVCFmCKtg" name="DI|tCombinedSQLFilter" hidden="true" family="ELT/Combined SQL"/>
+    <componentsSettings xmi:id="_g504nkLMEeeGfMVCFmCKtg" name="DI|tParAccelConnection" hidden="true" family="Databases/ParAccel"/>
+    <componentsSettings xmi:id="_g504n0LMEeeGfMVCFmCKtg" name="DI|tVectorWiseConnection" hidden="true" family="ELT/Connections"/>
+    <componentsSettings xmi:id="_g504oELMEeeGfMVCFmCKtg" name="DI|tHiveRow" hidden="true" family="Databases/Hive"/>
+    <componentsSettings xmi:id="_g504oULMEeeGfMVCFmCKtg" name="DI|tRedshiftRollback" hidden="true" family="Cloud/Amazon/Redshift"/>
+    <componentsSettings xmi:id="_g504okLMEeeGfMVCFmCKtg" name="DI|tAddressRowCloud" hidden="true" family="Data_Quality/Address"/>
+    <componentsSettings xmi:id="_g504o0LMEeeGfMVCFmCKtg" name="DI|tSQLiteConnection" hidden="true" family="ELT/Connections"/>
+    <componentsSettings xmi:id="_g504pELMEeeGfMVCFmCKtg" name="DI|tJasperOutputExec" hidden="true" family="Business_Intelligence/Jasper"/>
+    <componentsSettings xmi:id="_g504pULMEeeGfMVCFmCKtg" name="DI|tAzureStorageContainerCreate" hidden="true" family="Cloud/Azure Storage"/>
+    <componentsSettings xmi:id="_g504pkLMEeeGfMVCFmCKtg" name="DI|tGreenplumRollback" hidden="true" family="Databases/Greenplum"/>
+    <componentsSettings xmi:id="_g504p0LMEeeGfMVCFmCKtg" name="DI|tMysqlRow" hidden="true" family="Databases/MySQL"/>
+    <componentsSettings xmi:id="_g504qELMEeeGfMVCFmCKtg" name="DI|tCombinedSQLInput" hidden="true" family="ELT/Combined SQL"/>
+    <componentsSettings xmi:id="_g504qULMEeeGfMVCFmCKtg" name="DI|tParAccelOutput" hidden="true" family="Databases/ParAccel"/>
+    <componentsSettings xmi:id="_g504qkLMEeeGfMVCFmCKtg" name="DI|tGSClose" hidden="true" family="Big Data/Google Storage"/>
+    <componentsSettings xmi:id="_g504q0LMEeeGfMVCFmCKtg" name="DI|tPaloCheckElements" hidden="true" family="Business_Intelligence/OLAP_Cube/Palo"/>
+    <componentsSettings xmi:id="_g504rELMEeeGfMVCFmCKtg" name="DI|tS3Copy" hidden="true" family="Cloud/Amazon/S3"/>
+    <componentsSettings xmi:id="_g504rULMEeeGfMVCFmCKtg" name="DI|tDuplicateRow" hidden="true" family="Data_Quality"/>
+    <componentsSettings xmi:id="_g504rkLMEeeGfMVCFmCKtg" name="DI|tDB2BulkExec" hidden="true" family="Databases/DB2"/>
+    <componentsSettings xmi:id="_g504r0LMEeeGfMVCFmCKtg" name="DI|tMatchGroup" hidden="true" family="Data_Quality/Matching"/>
+    <componentsSettings xmi:id="_g504sELMEeeGfMVCFmCKtg" name="DI|tAmazonOracleCommit" hidden="true" family="Cloud/Amazon/Oracle"/>
+    <componentsSettings xmi:id="_g504sULMEeeGfMVCFmCKtg" name="DI|tInterbaseOutput" hidden="true" family="Databases/Interbase"/>
+    <componentsSettings xmi:id="_g504skLMEeeGfMVCFmCKtg" name="DI|tSybaseOutputBulk" hidden="true" family="Databases/Sybase"/>
+    <componentsSettings xmi:id="_g504s0LMEeeGfMVCFmCKtg" name="DI|tAmazonMysqlCommit" hidden="true" family="Cloud/Amazon/MySQL"/>
+    <componentsSettings xmi:id="_g504tELMEeeGfMVCFmCKtg" name="DI|tVerticaConnection" hidden="true" family="Databases/Vertica"/>
+    <componentsSettings xmi:id="_g504tULMEeeGfMVCFmCKtg" name="DI|tPostgresqlSCD" hidden="true" family="Business_Intelligence/DB_SCD"/>
+    <componentsSettings xmi:id="_g504tkLMEeeGfMVCFmCKtg" name="DI|tGreenplumRow" hidden="true" family="Databases/Greenplum"/>
+    <componentsSettings xmi:id="_g504t0LMEeeGfMVCFmCKtg" name="DI|tSybaseSCDELT" hidden="true" family="Databases/Sybase"/>
+    <componentsSettings xmi:id="_g504uELMEeeGfMVCFmCKtg" name="DI|tUniservRTMailBulk" hidden="true" family="Data_Quality/Uniserv"/>
+    <componentsSettings xmi:id="_g504uULMEeeGfMVCFmCKtg" name="DI|tGoogleDriveCopy" hidden="true" family="Cloud/Google Drive"/>
+    <componentsSettings xmi:id="_g504ukLMEeeGfMVCFmCKtg" name="DI|tPostgresqlOutputBulk" hidden="true" family="Databases/PostgreSQL"/>
+    <componentsSettings xmi:id="_g504u0LMEeeGfMVCFmCKtg" name="DI|tMicrosoftCrmOutput" hidden="true" family="Business/Microsoft_CRM"/>
+    <componentsSettings xmi:id="_g504vELMEeeGfMVCFmCKtg" name="DI|tPostgresqlValidRows" hidden="true" family="Databases/PostgreSQL"/>
+    <componentsSettings xmi:id="_g504vULMEeeGfMVCFmCKtg" name="DI|tGoogleDriveConnection" hidden="true" family="Cloud/Google Drive"/>
+    <componentsSettings xmi:id="_g504vkLMEeeGfMVCFmCKtg" name="DI|tNetsuiteInput" hidden="true" family="Cloud/NetSuite"/>
+    <componentsSettings xmi:id="_g504v0LMEeeGfMVCFmCKtg" name="DI|tAS400Row" hidden="true" family="Databases/AS400"/>
+    <componentsSettings xmi:id="_g504wELMEeeGfMVCFmCKtg" name="DI|tAmazonAuroraOutput" hidden="true" family="Cloud/Amazon/Aurora"/>
+    <componentsSettings xmi:id="_g504wULMEeeGfMVCFmCKtg" name="DI|tELTMysqlOutput" hidden="true" family="ELT/Map/MySQL"/>
+    <componentsSettings xmi:id="_g51foELMEeeGfMVCFmCKtg" name="DI|tSalesforceWaveOutputBulkExec" hidden="true" family="Cloud/Salesforce"/>
+    <componentsSettings xmi:id="_g51foULMEeeGfMVCFmCKtg" name="DI|tReplaceList" hidden="true" family="Data_Quality"/>
+    <componentsSettings xmi:id="_g51fokLMEeeGfMVCFmCKtg" name="DI|tPostgresqlCDC" hidden="true" family="Databases/PostgreSQL"/>
+    <componentsSettings xmi:id="_g51fo0LMEeeGfMVCFmCKtg" name="DI|tELTTeradataMap" hidden="true" family="ELT/Map/Teradata"/>
+    <componentsSettings xmi:id="_g51fpELMEeeGfMVCFmCKtg" name="DI|tHiveConnection" hidden="true" family="Big Data/Hive"/>
+    <componentsSettings xmi:id="_g51fpULMEeeGfMVCFmCKtg" name="DI|tAmazonEMRManage" hidden="true" family="Cloud/Amazon/EMR"/>
+    <componentsSettings xmi:id="_g51fpkLMEeeGfMVCFmCKtg" name="DI|tVerticaRollback" hidden="true" family="Databases/Vertica"/>
+    <componentsSettings xmi:id="_g51fp0LMEeeGfMVCFmCKtg" name="DI|tGreenplumOutput" hidden="true" family="Databases/Greenplum"/>
+    <componentsSettings xmi:id="_g51fqELMEeeGfMVCFmCKtg" name="DI|tMarketoInput" hidden="true" family="Cloud/Marketo"/>
+    <componentsSettings xmi:id="_g51fqULMEeeGfMVCFmCKtg" name="DI|tTeradataClose" hidden="true" family="Databases/Teradata"/>
+    <componentsSettings xmi:id="_g51fqkLMEeeGfMVCFmCKtg" name="DI|tVerticaSCD" hidden="true" family="Databases/Vertica"/>
+    <componentsSettings xmi:id="_g51fq0LMEeeGfMVCFmCKtg" name="DI|tSPSSInput" hidden="true" family="Business_Intelligence/SPSS"/>
+    <componentsSettings xmi:id="_g51frELMEeeGfMVCFmCKtg" name="DI|tGSClose" hidden="true" family="Cloud/Google Storage"/>
+    <componentsSettings xmi:id="_g51frULMEeeGfMVCFmCKtg" name="DI|tAS400CDC" hidden="true" family="Databases/AS400"/>
+    <componentsSettings xmi:id="_g51frkLMEeeGfMVCFmCKtg" name="DI|tFirebirdRollback" hidden="true" family="Databases/FireBird"/>
+    <componentsSettings xmi:id="_g51fr0LMEeeGfMVCFmCKtg" name="DI|tELTOracleOutput" hidden="true" family="ELT/Map/Oracle"/>
+    <componentsSettings xmi:id="_g51fsELMEeeGfMVCFmCKtg" name="DI|tDropboxList" hidden="true" family="Cloud/Dropbox"/>
+    <componentsSettings xmi:id="_g51fsULMEeeGfMVCFmCKtg" name="DI|tPatternCheck" hidden="true" family="Data_Quality/Matching/Pattern matching"/>
+    <componentsSettings xmi:id="_g51fskLMEeeGfMVCFmCKtg" name="DI|tCloudStop" hidden="true" family="Cloud"/>
+    <componentsSettings xmi:id="_g51fs0LMEeeGfMVCFmCKtg" name="DI|tPaloCubeList" hidden="true" family="Business_Intelligence/OLAP_Cube/Palo"/>
+    <componentsSettings xmi:id="_g51ftELMEeeGfMVCFmCKtg" name="DI|tAmazonAuroraRollback" hidden="true" family="Cloud/Amazon/Aurora"/>
+    <componentsSettings xmi:id="_g51ftULMEeeGfMVCFmCKtg" name="DI|tAmazonOracleCommit" hidden="true" family="Databases/Amazon/Oracle"/>
+    <componentsSettings xmi:id="_g51ftkLMEeeGfMVCFmCKtg" name="DI|tTransliterate" hidden="true" family="Data_Quality/Standardization"/>
+    <componentsSettings xmi:id="_g51ft0LMEeeGfMVCFmCKtg" name="DI|tAmazonAuroraCommit" hidden="true" family="Databases/Amazon/Aurora"/>
+    <componentsSettings xmi:id="_g51fuELMEeeGfMVCFmCKtg" name="DI|tSAPBapi" hidden="true" family="Databases/SAP"/>
+    <componentsSettings xmi:id="_g51fuULMEeeGfMVCFmCKtg" name="DI|tVerticaInput" hidden="true" family="Databases/Vertica"/>
+    <componentsSettings xmi:id="_g51fukLMEeeGfMVCFmCKtg" name="DI|tGSPut" hidden="true" family="Cloud/Google Storage"/>
+    <componentsSettings xmi:id="_g51fu0LMEeeGfMVCFmCKtg" name="DI|tOracleValidRows" hidden="true" family="Databases/Oracle"/>
+    <componentsSettings xmi:id="_g51fvELMEeeGfMVCFmCKtg" name="DI|tQASAddressVerified" hidden="true" family="Data_Quality/Address/Experian QAS"/>
+    <componentsSettings xmi:id="_g51fvULMEeeGfMVCFmCKtg" name="DI|tPostgresPlusSCD" hidden="true" family="Databases/PostgresPlus"/>
+    <componentsSettings xmi:id="_g51fvkLMEeeGfMVCFmCKtg" name="DI|tTeradataRollback" hidden="true" family="Databases/Teradata"/>
+    <componentsSettings xmi:id="_g51fv0LMEeeGfMVCFmCKtg" name="DI|tIntervalMatch" hidden="true" family="Data_Quality"/>
+    <componentsSettings xmi:id="_g51fwELMEeeGfMVCFmCKtg" name="DI|tGoogleDriveGet" hidden="true" family="Cloud/Google Drive"/>
+    <componentsSettings xmi:id="_g51fwULMEeeGfMVCFmCKtg" name="DI|tIngresBulkExec" hidden="true" family="Databases/Ingres"/>
+    <componentsSettings xmi:id="_g51fwkLMEeeGfMVCFmCKtg" name="DI|tPostgresPlusConnection" hidden="true" family="ELT/Connections"/>
+    <componentsSettings xmi:id="_g51fw0LMEeeGfMVCFmCKtg" name="DI|tAmazonMysqlRollback" hidden="true" family="Databases/Amazon/MySQL"/>
+    <componentsSettings xmi:id="_g51fxELMEeeGfMVCFmCKtg" name="DI|tGreenplumInput" hidden="true" family="Databases/Greenplum"/>
+    <componentsSettings xmi:id="_g51fxULMEeeGfMVCFmCKtg" name="DI|tLineChart" hidden="true" family="Business_Intelligence/Charts"/>
+    <componentsSettings xmi:id="_g51fxkLMEeeGfMVCFmCKtg" name="DI|tEXistGet" hidden="true" family="Databases/eXist"/>
+    <componentsSettings xmi:id="_g51fx0LMEeeGfMVCFmCKtg" name="DI|tSAPInfoObjectOutput" hidden="true" family="Databases/SAP"/>
+    <componentsSettings xmi:id="_g51fyELMEeeGfMVCFmCKtg" name="DI|tOracleValidRows" hidden="true" family="Data_Quality/Matching/Pattern matching"/>
+    <componentsSettings xmi:id="_g51fyULMEeeGfMVCFmCKtg" name="DI|tAccessConnection" hidden="true" family="ELT/Connections"/>
+    <componentsSettings xmi:id="_g51fykLMEeeGfMVCFmCKtg" name="DI|tSAPIDocReceiver" hidden="true" family="Business/SAP"/>
+    <componentsSettings xmi:id="_g51fy0LMEeeGfMVCFmCKtg" name="DI|tQASBatchAddressRow" hidden="true" family="Data_Quality/Address/Experian QAS"/>
+    <componentsSettings xmi:id="_g51fzELMEeeGfMVCFmCKtg" name="DI|tParAccelSCD" hidden="true" family="Databases/ParAccel"/>
+    <componentsSettings xmi:id="_g51fzULMEeeGfMVCFmCKtg" name="DI|tQASAddressIncomplete" hidden="true" family="Data_Quality/Address/Experian QAS"/>
+    <componentsSettings xmi:id="_g51fzkLMEeeGfMVCFmCKtg" name="DI|tParAccelConnection" hidden="true" family="ELT/Connections"/>
+    <componentsSettings xmi:id="_g52GsELMEeeGfMVCFmCKtg" name="DI|tVerticaBulkExec" hidden="true" family="Databases/Vertica"/>
+    <componentsSettings xmi:id="_g52GsULMEeeGfMVCFmCKtg" name="DI|tGoogleMapLookup" hidden="true" family="Data_Quality/Address"/>
+    <componentsSettings xmi:id="_g52GskLMEeeGfMVCFmCKtg" name="DI|tServiceNowOutput" hidden="true" family="Business/ServiceNow"/>
+    <componentsSettings xmi:id="_g52Gs0LMEeeGfMVCFmCKtg" name="DI|tEXAConnection" hidden="true" family="Databases/EXASolution"/>
+    <componentsSettings xmi:id="_g52GtELMEeeGfMVCFmCKtg" name="DI|tELTSybaseInput" hidden="true" family="ELT/Map/Sybase"/>
+    <componentsSettings xmi:id="_g52GtULMEeeGfMVCFmCKtg" name="DI|tELTNetezzaInput" hidden="true" family="ELT/Map/Netezza"/>
+    <componentsSettings xmi:id="_g52GtkLMEeeGfMVCFmCKtg" name="DI|tPostgresqlRow" hidden="true" family="Databases/PostgreSQL"/>
+    <componentsSettings xmi:id="_g52Gt0LMEeeGfMVCFmCKtg" name="DI|tStewardshipTaskInput" hidden="true" family="Data_Quality"/>
+    <componentsSettings xmi:id="_g52GuELMEeeGfMVCFmCKtg" name="DI|tServiceNowInput" hidden="true" family="Cloud/ServiceNow"/>
+    <componentsSettings xmi:id="_g52GuULMEeeGfMVCFmCKtg" name="DI|tSalesforceWaveBulkExec" hidden="true" family="Cloud/Salesforce"/>
+    <componentsSettings xmi:id="_g52GukLMEeeGfMVCFmCKtg" name="DI|tMysqlClose" hidden="true" family="Databases/MySQL"/>
+    <componentsSettings xmi:id="_g52Gu0LMEeeGfMVCFmCKtg" name="DI|tRecordMatching" hidden="true" family="Data_Quality/Matching"/>
+    <componentsSettings xmi:id="_g52GvELMEeeGfMVCFmCKtg" name="DI|tAccessRollback" hidden="true" family="Databases/Access"/>
+    <componentsSettings xmi:id="_g52GvULMEeeGfMVCFmCKtg" name="DI|tMSSqlInput" hidden="true" family="Databases/MS_SQL_Server"/>
+    <componentsSettings xmi:id="_g52GvkLMEeeGfMVCFmCKtg" name="DI|tOracleRow" hidden="true" family="Databases/Oracle"/>
+    <componentsSettings xmi:id="_g52Gv0LMEeeGfMVCFmCKtg" name="DI|tS3Get" hidden="true" family="Cloud/Amazon/S3"/>
+    <componentsSettings xmi:id="_g52GwELMEeeGfMVCFmCKtg" name="DI|tJDBCConnection" hidden="true" family="Databases/DB_JDBC"/>
+    <componentsSettings xmi:id="_g52GwULMEeeGfMVCFmCKtg" name="DI|tGenKey" hidden="true" family="Data_Quality/Matching"/>
+    <componentsSettings xmi:id="_g52GwkLMEeeGfMVCFmCKtg" name="DI|tReservoirSampling" hidden="true" family="Data_Quality"/>
+    <componentsSettings xmi:id="_g52Gw0LMEeeGfMVCFmCKtg" name="DI|tBarChart" hidden="true" family="Business_Intelligence/Charts"/>
+    <componentsSettings xmi:id="_g52GxELMEeeGfMVCFmCKtg" name="DI|tSynonymOutput" hidden="true" family="Data_Quality/Standardization"/>
+    <componentsSettings xmi:id="_g52GxULMEeeGfMVCFmCKtg" name="DI|tBoxCopy" hidden="true" family="Cloud/Box"/>
+    <componentsSettings xmi:id="_g52GxkLMEeeGfMVCFmCKtg" name="DI|tDropboxPut" hidden="true" family="Cloud/Dropbox"/>
+    <componentsSettings xmi:id="_g52Gx0LMEeeGfMVCFmCKtg" name="DI|tMSSqlOutputBulk" hidden="true" family="Databases/MS_SQL_Server"/>
+    <componentsSettings xmi:id="_g52GyELMEeeGfMVCFmCKtg" name="DI|tLDAPAttributesInput" hidden="true" family="Databases/LDAP"/>
+    <componentsSettings xmi:id="_g52GyULMEeeGfMVCFmCKtg" name="DI|tParAccelOutputBulk" hidden="true" family="Databases/ParAccel"/>
+    <componentsSettings xmi:id="_g52GykLMEeeGfMVCFmCKtg" name="DI|tGSBucketDelete" hidden="true" family="Cloud/Google Storage"/>
+    <componentsSettings xmi:id="_g52Gy0LMEeeGfMVCFmCKtg" name="DI|tHiveConnection" hidden="true" family="ELT/Connections"/>
+    <componentsSettings xmi:id="_g52GzELMEeeGfMVCFmCKtg" name="DI|tJava" hidden="true" family="Custom_Code"/>
+    <componentsSettings xmi:id="_g52GzULMEeeGfMVCFmCKtg" name="DI|tMysqlConnection" hidden="true" family="ELT/Connections"/>
+    <componentsSettings xmi:id="_g52GzkLMEeeGfMVCFmCKtg" name="DI|tS3BucketDelete" hidden="true" family="Cloud/Amazon/S3"/>
+    <componentsSettings xmi:id="_g52Gz0LMEeeGfMVCFmCKtg" name="DI|tMaxDBInput" hidden="true" family="Databases/MaxDB"/>
+    <componentsSettings xmi:id="_g52G0ELMEeeGfMVCFmCKtg" name="DI|tPostgresqlSCD" hidden="true" family="Databases/PostgreSQL"/>
+    <componentsSettings xmi:id="_g52G0ULMEeeGfMVCFmCKtg" name="DI|tRedshiftBulkExec" hidden="true" family="Databases/Amazon/Redshift"/>
+    <componentsSettings xmi:id="_g52G0kLMEeeGfMVCFmCKtg" name="DI|tMysqlBulkExec" hidden="true" family="Databases/MySQL"/>
+    <componentsSettings xmi:id="_g52G00LMEeeGfMVCFmCKtg" name="DI|tRedshiftOutputBulk" hidden="true" family="Cloud/Amazon/Redshift"/>
+    <componentsSettings xmi:id="_g52G1ELMEeeGfMVCFmCKtg" name="DI|tRedshiftOutputBulkExec" hidden="true" family="Databases/Amazon/Redshift"/>
+    <componentsSettings xmi:id="_g52G1ULMEeeGfMVCFmCKtg" name="DI|tTeradataFastExport" hidden="true" family="Databases/Teradata"/>
+    <componentsSettings xmi:id="_g52twELMEeeGfMVCFmCKtg" name="DI|tS3Connection" hidden="true" family="Cloud/Amazon/S3"/>
+    <componentsSettings xmi:id="_g52twULMEeeGfMVCFmCKtg" name="DI|tAccessClose" hidden="true" family="Databases/Access"/>
+    <componentsSettings xmi:id="_g52twkLMEeeGfMVCFmCKtg" name="DI|tELTMSSqlOutput" hidden="true" family="ELT/Map/MSSql"/>
+    <componentsSettings xmi:id="_g52tw0LMEeeGfMVCFmCKtg" name="DI|tVerticaOutputBulkExec" hidden="true" family="Databases/Vertica"/>
+    <componentsSettings xmi:id="_g52txELMEeeGfMVCFmCKtg" name="DI|tNetezzaOutput" hidden="true" family="Databases/Netezza"/>
+    <componentsSettings xmi:id="_g52txULMEeeGfMVCFmCKtg" name="DI|tTeradataRow" hidden="true" family="Databases/Teradata"/>
+    <componentsSettings xmi:id="_g52txkLMEeeGfMVCFmCKtg" name="DI|tPostgresPlusCommit" hidden="true" family="Databases/PostgresPlus"/>
+    <componentsSettings xmi:id="_g52tx0LMEeeGfMVCFmCKtg" name="DI|tELTPostgresqlMap" hidden="true" family="ELT/Map/PostgreSQL"/>
+    <componentsSettings xmi:id="_g52tyELMEeeGfMVCFmCKtg" name="DI|tELTNetezzaMap" hidden="true" family="ELT/Map/Netezza"/>
+    <componentsSettings xmi:id="_g52tyULMEeeGfMVCFmCKtg" name="DI|tSAPDataSourceOutput" hidden="true" family="Business/SAP"/>
+    <componentsSettings xmi:id="_g52tykLMEeeGfMVCFmCKtg" name="DI|tSybaseSCD" hidden="true" family="Business_Intelligence/DB_SCD"/>
+    <componentsSettings xmi:id="_g52ty0LMEeeGfMVCFmCKtg" name="DI|tS3BucketExist" hidden="true" family="Cloud/Amazon/S3"/>
+    <componentsSettings xmi:id="_g52tzELMEeeGfMVCFmCKtg" name="DI|tMarketoOutput" hidden="true" family="Business/Marketo"/>
+    <componentsSettings xmi:id="_g52tzULMEeeGfMVCFmCKtg" name="DI|tAmazonMysqlOutput" hidden="true" family="Cloud/Amazon/MySQL"/>
+    <componentsSettings xmi:id="_g52tzkLMEeeGfMVCFmCKtg" name="DI|tVerticaCommit" hidden="true" family="Databases/Vertica"/>
+    <componentsSettings xmi:id="_g52tz0LMEeeGfMVCFmCKtg" name="DI|tLDAPConnection" hidden="true" family="Databases/LDAP"/>
+    <componentsSettings xmi:id="_g52t0ELMEeeGfMVCFmCKtg" name="DI|tGreenplumConnection" hidden="true" family="Databases/Greenplum"/>
+    <componentsSettings xmi:id="_g52t0ULMEeeGfMVCFmCKtg" name="DI|tMSSqlSP" hidden="true" family="Databases/MS_SQL_Server"/>
+    <componentsSettings xmi:id="_g52t0kLMEeeGfMVCFmCKtg" name="DI|tUniservRTConvertName" hidden="true" family="Data_Quality/Uniserv"/>
+    <componentsSettings xmi:id="_g52t00LMEeeGfMVCFmCKtg" name="DI|tPostgresPlusOutput" hidden="true" family="Databases/PostgresPlus"/>
+    <componentsSettings xmi:id="_g52t1ELMEeeGfMVCFmCKtg" name="DI|tInterbaseRollback" hidden="true" family="Databases/Interbase"/>
+    <componentsSettings xmi:id="_g52t1ULMEeeGfMVCFmCKtg" name="DI|tJDBCRow" hidden="true" family="Databases/DB_JDBC"/>
+    <componentsSettings xmi:id="_g52t1kLMEeeGfMVCFmCKtg" name="DI|tSybaseCDC" hidden="true" family="Databases/Sybase"/>
+    <componentsSettings xmi:id="_g52t10LMEeeGfMVCFmCKtg" name="DI|tSybaseRow" hidden="true" family="Databases/Sybase"/>
+    <componentsSettings xmi:id="_g52t2ELMEeeGfMVCFmCKtg" name="DI|tAmazonAuroraCommit" hidden="true" family="Cloud/Amazon/Aurora"/>
+    <componentsSettings xmi:id="_g52t2ULMEeeGfMVCFmCKtg" name="DI|tSchemaComplianceCheck" hidden="true" family="Data_Quality"/>
+    <componentsSettings xmi:id="_g52t2kLMEeeGfMVCFmCKtg" name="DI|tPaloOutputMulti" hidden="true" family="Business_Intelligence/OLAP_Cube/Palo"/>
+    <componentsSettings xmi:id="_g52t20LMEeeGfMVCFmCKtg" name="DI|tGreenplumGPLoad" hidden="true" family="Databases/Greenplum"/>
+    <componentsSettings xmi:id="_g52t3ELMEeeGfMVCFmCKtg" name="DI|tSAPDataSourceOutput" hidden="true" family="Databases/SAP"/>
+    <componentsSettings xmi:id="_g52t3ULMEeeGfMVCFmCKtg" name="DI|tIngresInput" hidden="true" family="Databases/Ingres"/>
+    <componentsSettings xmi:id="_g52t3kLMEeeGfMVCFmCKtg" name="DI|tVerticaSCD" hidden="true" family="Business_Intelligence/DB_SCD"/>
+    <componentsSettings xmi:id="_g52t30LMEeeGfMVCFmCKtg" name="DI|tAmazonEMRResize" hidden="true" family="Cloud/Amazon/EMR"/>
+    <componentsSettings xmi:id="_g52t4ELMEeeGfMVCFmCKtg" name="DI|tSybaseClose" hidden="true" family="Databases/Sybase"/>
+    <componentsSettings xmi:id="_g52t4ULMEeeGfMVCFmCKtg" name="DI|tInterbaseConnection" hidden="true" family="ELT/Connections"/>
+    <componentsSettings xmi:id="_g52t4kLMEeeGfMVCFmCKtg" name="DI|tHSQLDbRow" hidden="true" family="Databases/HSQLDb"/>
+    <componentsSettings xmi:id="_g52t40LMEeeGfMVCFmCKtg" name="DI|tHL7Input" hidden="true" family="Business/Healthcare"/>
+    <componentsSettings xmi:id="_g52t5ELMEeeGfMVCFmCKtg" name="DI|tGSPut" hidden="true" family="Big Data/Google Storage"/>
+    <componentsSettings xmi:id="_g52t5ULMEeeGfMVCFmCKtg" name="DI|tAmazonMysqlInput" hidden="true" family="Cloud/Amazon/MySQL"/>
+    <componentsSettings xmi:id="_g52t5kLMEeeGfMVCFmCKtg" name="DI|tOracleRollback" hidden="true" family="Databases/Oracle"/>
+    <componentsSettings xmi:id="_g53U0ELMEeeGfMVCFmCKtg" name="DI|tEXistPut" hidden="true" family="Databases/eXist"/>
+    <componentsSettings xmi:id="_g53U0ULMEeeGfMVCFmCKtg" name="DI|tDataMasking" hidden="true" family="Data_Quality"/>
+    <componentsSettings xmi:id="_g53U0kLMEeeGfMVCFmCKtg" name="DI|tAS400Commit" hidden="true" family="Databases/AS400"/>
+    <componentsSettings xmi:id="_g53U00LMEeeGfMVCFmCKtg" name="DI|tDB2Connection" hidden="true" family="Databases/DB2"/>
+    <componentsSettings xmi:id="_g53U1ELMEeeGfMVCFmCKtg" name="DI|tTeradataOutput" hidden="true" family="Databases/Teradata"/>
+    <componentsSettings xmi:id="_g53U1ULMEeeGfMVCFmCKtg" name="DI|tSQLiteRollback" hidden="true" family="Databases/SQLite"/>
+    <componentsSettings xmi:id="_g53U1kLMEeeGfMVCFmCKtg" name="DI|tSQLTemplateFilterColumns" hidden="true" family="ELT/SQLTemplate"/>
+    <componentsSettings xmi:id="_g53U10LMEeeGfMVCFmCKtg" name="DI|tBoxConnection" hidden="true" family="Cloud/Box"/>
+    <componentsSettings xmi:id="_g53U2ELMEeeGfMVCFmCKtg" name="DI|tGSBucketDelete" hidden="true" family="Big Data/Google Storage"/>
+    <componentsSettings xmi:id="_g53U2ULMEeeGfMVCFmCKtg" name="DI|tRedshiftConnection" hidden="true" family="Cloud/Amazon/Redshift"/>
+    <componentsSettings xmi:id="_g53U2kLMEeeGfMVCFmCKtg" name="DI|tMondrianInput" hidden="true" family="Business_Intelligence/OLAP_Cube/Mondrian"/>
+    <componentsSettings xmi:id="_g53U20LMEeeGfMVCFmCKtg" name="DI|tTeradataConnection" hidden="true" family="Databases/Teradata"/>
+    <componentsSettings xmi:id="_g53U3ELMEeeGfMVCFmCKtg" name="DI|tSQLTemplateFilterRows" hidden="true" family="ELT/SQLTemplate"/>
+    <componentsSettings xmi:id="_g53U3ULMEeeGfMVCFmCKtg" name="DI|tOleDbInput" hidden="true" family="Databases/OleDb"/>
+    <componentsSettings xmi:id="_g53U3kLMEeeGfMVCFmCKtg" name="DI|tPaloDimension" hidden="true" family="Business_Intelligence/OLAP_Cube/Palo"/>
+    <componentsSettings xmi:id="_g53U30LMEeeGfMVCFmCKtg" name="DI|tVerticaOutput" hidden="true" family="Databases/Vertica"/>
+    <componentsSettings xmi:id="_g53U4ELMEeeGfMVCFmCKtg" name="DI|tOracleCommit" hidden="true" family="Databases/Oracle"/>
+    <componentsSettings xmi:id="_g53U4ULMEeeGfMVCFmCKtg" name="DI|tGoogleDriveCreate" hidden="true" family="Cloud/Google Drive"/>
+    <componentsSettings xmi:id="_g5374ELMEeeGfMVCFmCKtg" name="DI|tJavaRow" hidden="true" family="Custom_Code"/>
+    <componentsSettings xmi:id="_g5374ULMEeeGfMVCFmCKtg" name="DI|tEXistConnection" hidden="true" family="Databases/eXist"/>
+    <componentsSettings xmi:id="_g5374kLMEeeGfMVCFmCKtg" name="DI|tJavaDBRow" hidden="true" family="Databases/JavaDB"/>
+    <componentsSettings xmi:id="_g53740LMEeeGfMVCFmCKtg" name="DI|tAmazonMysqlRollback" hidden="true" family="Cloud/Amazon/MySQL"/>
+    <componentsSettings xmi:id="_g5375ELMEeeGfMVCFmCKtg" name="DI|tSAPInfoObjectOutput" hidden="true" family="Business/SAP"/>
+    <componentsSettings xmi:id="_g5375ULMEeeGfMVCFmCKtg" name="DI|tSPSSOutput" hidden="true" family="Business_Intelligence/SPSS"/>
+    <componentsSettings xmi:id="_g5375kLMEeeGfMVCFmCKtg" name="DI|tAmazonMysqlRow" hidden="true" family="Cloud/Amazon/MySQL"/>
+    <componentsSettings xmi:id="_g53750LMEeeGfMVCFmCKtg" name="DI|tBoxGet" hidden="true" family="Cloud/Box"/>
+    <componentsSettings xmi:id="_g5376ELMEeeGfMVCFmCKtg" name="DI|tELTNetezzaOutput" hidden="true" family="ELT/Map/Netezza"/>
+    <componentsSettings xmi:id="_g5376ULMEeeGfMVCFmCKtg" name="DI|tLibraryLoad" hidden="true" family="Custom_Code"/>
+    <componentsSettings xmi:id="_g5376kLMEeeGfMVCFmCKtg" name="DI|tAmazonAuroraClose" hidden="true" family="Cloud/Amazon/Aurora"/>
+    <componentsSettings xmi:id="_g53760LMEeeGfMVCFmCKtg" name="DI|tInterbaseCommit" hidden="true" family="Databases/Interbase"/>
+    <componentsSettings xmi:id="_g5377ELMEeeGfMVCFmCKtg" name="DI|tAzureStoragePut" hidden="true" family="Cloud/Azure Storage"/>
+    <componentsSettings xmi:id="_g5377ULMEeeGfMVCFmCKtg" name="DI|tMySQLInvalidRows" hidden="true" family="Data_Quality/Matching/Pattern matching"/>
+    <componentsSettings xmi:id="_g5377kLMEeeGfMVCFmCKtg" name="DI|tEXAClose" hidden="true" family="Databases/EXASolution"/>
+    <componentsSettings xmi:id="_g53770LMEeeGfMVCFmCKtg" name="DI|tBoxList" hidden="true" family="Cloud/Box"/>
+    <componentsSettings xmi:id="_g5378ELMEeeGfMVCFmCKtg" name="DI|tInformixOutputBulkExec" hidden="true" family="Databases/Informix"/>
+    <componentsSettings xmi:id="_g5378ULMEeeGfMVCFmCKtg" name="DI|tRedshiftBulkExec" hidden="true" family="Cloud/Amazon/Redshift"/>
+    <componentsSettings xmi:id="_g5378kLMEeeGfMVCFmCKtg" name="DI|tServiceNowInput" hidden="true" family="Business/ServiceNow"/>
+    <componentsSettings xmi:id="_g54i8ELMEeeGfMVCFmCKtg" name="DI|tTeradataCommit" hidden="true" family="Databases/Teradata"/>
+    <componentsSettings xmi:id="_g54i8ULMEeeGfMVCFmCKtg" name="DI|tCentricCRMInput" hidden="true" family="Business/CentricCRM"/>
+    <componentsSettings xmi:id="_g54i8kLMEeeGfMVCFmCKtg" name="DI|tSugarCRMOutput" hidden="true" family="Cloud/SugarCRM"/>
+    <componentsSettings xmi:id="_g54i80LMEeeGfMVCFmCKtg" name="DI|tPostgresPlusSCDELT" hidden="true" family="Databases/PostgresPlus"/>
+    <componentsSettings xmi:id="_g54i9ELMEeeGfMVCFmCKtg" name="DI|tELTMSSqlMap" hidden="true" family="ELT/Map/MSSql"/>
+    <componentsSettings xmi:id="_g54i9ULMEeeGfMVCFmCKtg" name="DI|tMysqlCommit" hidden="true" family="Databases/MySQL"/>
+    <componentsSettings xmi:id="_g54i9kLMEeeGfMVCFmCKtg" name="DI|tEXistXUpdate" hidden="true" family="Databases/eXist"/>
+    <componentsSettings xmi:id="_g54i90LMEeeGfMVCFmCKtg" name="DI|tExtractRegexFields" hidden="true" family="Data_Quality/Matching/Pattern matching"/>
+    <componentsSettings xmi:id="_g54i-ELMEeeGfMVCFmCKtg" name="DI|tDB2SCD" hidden="true" family="Databases/DB2"/>
+    <componentsSettings xmi:id="_g54i-ULMEeeGfMVCFmCKtg" name="DI|tDB2Commit" hidden="true" family="Databases/DB2"/>
+    <componentsSettings xmi:id="_g54i-kLMEeeGfMVCFmCKtg" name="DI|tFirebirdConnection" hidden="true" family="ELT/Connections"/>
+    <componentsSettings xmi:id="_g54i-0LMEeeGfMVCFmCKtg" name="DI|tGSBucketExist" hidden="true" family="Cloud/Google Storage"/>
+    <componentsSettings xmi:id="_g54i_ELMEeeGfMVCFmCKtg" name="DI|tLDAPRenameEntry" hidden="true" family="Databases/LDAP"/>
+    <componentsSettings xmi:id="_g54i_ULMEeeGfMVCFmCKtg" name="DI|tInformixSP" hidden="true" family="Databases/Informix"/>
+    <componentsSettings xmi:id="_g54i_kLMEeeGfMVCFmCKtg" name="DI|tMaxDBOutput" hidden="true" family="Databases/MaxDB"/>
+    <componentsSettings xmi:id="_g54i_0LMEeeGfMVCFmCKtg" name="DI|tParAccelOutputBulkExec" hidden="true" family="Databases/ParAccel"/>
+    <componentsSettings xmi:id="_g54jAELMEeeGfMVCFmCKtg" name="DI|tFirebirdConnection" hidden="true" family="Databases/FireBird"/>
+    <componentsSettings xmi:id="_g54jAULMEeeGfMVCFmCKtg" name="DI|tAccessOutputBulk" hidden="true" family="Databases/Access"/>
+    <componentsSettings xmi:id="_g54jAkLMEeeGfMVCFmCKtg" name="DI|tMysqlLastInsertId" hidden="true" family="Databases/MySQL"/>
+    <componentsSettings xmi:id="_g54jA0LMEeeGfMVCFmCKtg" name="DI|tIngresOutput" hidden="true" family="Databases/Ingres"/>
+    <componentsSettings xmi:id="_g54jBELMEeeGfMVCFmCKtg" name="DI|tJavaDBOutput" hidden="true" family="Databases/JavaDB"/>
+    <componentsSettings xmi:id="_g54jBULMEeeGfMVCFmCKtg" name="DI|tPaloInputMulti" hidden="true" family="Business_Intelligence/OLAP_Cube/Palo"/>
+    <componentsSettings xmi:id="_g55KAELMEeeGfMVCFmCKtg" name="DI|tVerifyEmail" hidden="true" family="Data_Quality"/>
+    <componentsSettings xmi:id="_g55KAULMEeeGfMVCFmCKtg" name="DI|tIngresConnection" hidden="true" family="Databases/Ingres"/>
+    <componentsSettings xmi:id="_g55KAkLMEeeGfMVCFmCKtg" name="DI|tOracleOutputBulkExec" hidden="true" family="Databases/Oracle"/>
+    <componentsSettings xmi:id="_g55KA0LMEeeGfMVCFmCKtg" name="DI|tPostgresqlConnection" hidden="true" family="Databases/PostgreSQL"/>
+    <componentsSettings xmi:id="_g55KBELMEeeGfMVCFmCKtg" name="DI|tIngresConnection" hidden="true" family="ELT/Connections"/>
+    <componentsSettings xmi:id="_g55KBULMEeeGfMVCFmCKtg" name="DI|tInformixInput" hidden="true" family="Databases/Informix"/>
+    <componentsSettings xmi:id="_g55KBkLMEeeGfMVCFmCKtg" name="DI|tSAPDSOInput" hidden="true" family="Business/SAP"/>
+    <componentsSettings xmi:id="_g55KB0LMEeeGfMVCFmCKtg" name="DI|tIngresSCD" hidden="true" family="Business_Intelligence/DB_SCD"/>
+    <componentsSettings xmi:id="_g55KCELMEeeGfMVCFmCKtg" name="DI|tStandardizePhoneNumber" hidden="true" family="Data_Quality/Standardization"/>
+    <componentsSettings xmi:id="_g55KCULMEeeGfMVCFmCKtg" name="DI|tUniservRTMailSearch" hidden="true" family="Data_Quality/Uniserv"/>
+    <componentsSettings xmi:id="_g55KCkLMEeeGfMVCFmCKtg" name="DI|tAmazonOracleClose" hidden="true" family="Databases/Amazon/Oracle"/>
+    <componentsSettings xmi:id="_g55KC0LMEeeGfMVCFmCKtg" name="DI|tMySQLValidRows" hidden="true" family="Data_Quality/Matching/Pattern matching"/>
+    <componentsSettings xmi:id="_g55KDELMEeeGfMVCFmCKtg" name="DI|tAddCRCRow" hidden="true" family="Data_Quality"/>
+    <componentsSettings xmi:id="_g55KDULMEeeGfMVCFmCKtg" name="DI|tAmazonOracleConnection" hidden="true" family="Cloud/Amazon/Oracle"/>
+    <componentsSettings xmi:id="_g55KDkLMEeeGfMVCFmCKtg" name="DI|tVtigerCRMOutput" hidden="true" family="Business/VtigerCRM"/>
+    <componentsSettings xmi:id="_g55KD0LMEeeGfMVCFmCKtg" name="DI|tTeradataMultiLoad" hidden="true" family="Databases/Teradata"/>
+    <componentsSettings xmi:id="_g55KEELMEeeGfMVCFmCKtg" name="DI|tJDBCSP" hidden="true" family="Databases/DB_JDBC"/>
+    <componentsSettings xmi:id="_g55KEULMEeeGfMVCFmCKtg" name="DI|tTeradataCDC" hidden="true" family="Databases/Teradata"/>
+    <componentsSettings xmi:id="_g55KEkLMEeeGfMVCFmCKtg" name="DI|tSetDynamicSchema" hidden="true" family="Custom_Code"/>
+    <componentsSettings xmi:id="_g55KE0LMEeeGfMVCFmCKtg" name="DI|tS3BucketList" hidden="true" family="Cloud/Amazon/S3"/>
+    <componentsSettings xmi:id="_g55KFELMEeeGfMVCFmCKtg" name="DI|tRedshiftOutput" hidden="true" family="Cloud/Amazon/Redshift"/>
+    <componentsSettings xmi:id="_g55KFULMEeeGfMVCFmCKtg" name="DI|tSybaseConnection" hidden="true" family="ELT/Connections"/>
+    <componentsSettings xmi:id="_g55KFkLMEeeGfMVCFmCKtg" name="DI|tJasperOutput" hidden="true" family="Business_Intelligence/Jasper"/>
+    <componentsSettings xmi:id="_g55KF0LMEeeGfMVCFmCKtg" name="DI|tInformixSCD" hidden="true" family="Databases/Informix"/>
+    <componentsSettings xmi:id="_g55KGELMEeeGfMVCFmCKtg" name="DI|tInterbaseInput" hidden="true" family="Databases/Interbase"/>
+    <componentsSettings xmi:id="_g55KGULMEeeGfMVCFmCKtg" name="DI|tStewardshipTaskOutput" hidden="true" family="Data_Quality"/>
+    <componentsSettings xmi:id="_g55KGkLMEeeGfMVCFmCKtg" name="DI|tDotNETInstantiate" hidden="true" family="DotNET"/>
+    <componentsSettings xmi:id="_g55KG0LMEeeGfMVCFmCKtg" name="DI|tGSBucketExist" hidden="true" family="Big Data/Google Storage"/>
+    <componentsSettings xmi:id="_g55KHELMEeeGfMVCFmCKtg" name="DI|tEXARollback" hidden="true" family="Databases/EXASolution"/>
+    <componentsSettings xmi:id="_g55KHULMEeeGfMVCFmCKtg" name="DI|tMarketoListOperation" hidden="true" family="Business/Marketo"/>
+    <componentsSettings xmi:id="_g55KHkLMEeeGfMVCFmCKtg" name="DI|tEXistList" hidden="true" family="Databases/eXist"/>
+    <componentsSettings xmi:id="_g55KH0LMEeeGfMVCFmCKtg" name="DI|tUniservRTPost" hidden="true" family="Data_Quality/Uniserv"/>
+    <componentsSettings xmi:id="_g55KIELMEeeGfMVCFmCKtg" name="DI|tGSGet" hidden="true" family="Big Data/Google Storage"/>
+    <componentsSettings xmi:id="_g55xEELMEeeGfMVCFmCKtg" name="DI|tGSBucketList" hidden="true" family="Big Data/Google Storage"/>
+    <componentsSettings xmi:id="_g55xEULMEeeGfMVCFmCKtg" name="DI|tGSDelete" hidden="true" family="Cloud/Google Storage"/>
+    <componentsSettings xmi:id="_g55xEkLMEeeGfMVCFmCKtg" name="DI|tOracleOutputBulk" hidden="true" family="Databases/Oracle"/>
+    <componentsSettings xmi:id="_g55xE0LMEeeGfMVCFmCKtg" name="DI|tSQLiteConnection" hidden="true" family="Databases/SQLite"/>
+    <componentsSettings xmi:id="_g55xFELMEeeGfMVCFmCKtg" name="DI|tParAccelSCD" hidden="true" family="Business_Intelligence/DB_SCD"/>
+    <componentsSettings xmi:id="_g55xFULMEeeGfMVCFmCKtg" name="DI|tAmazonOracleRow" hidden="true" family="Cloud/Amazon/Oracle"/>
+    <componentsSettings xmi:id="_g55xFkLMEeeGfMVCFmCKtg" name="DI|tSQLiteRow" hidden="true" family="Databases/SQLite"/>
+    <componentsSettings xmi:id="_g55xF0LMEeeGfMVCFmCKtg" name="DI|tELTMysqlMap" hidden="true" family="ELT/Map/MySQL"/>
+    <componentsSettings xmi:id="_g55xGELMEeeGfMVCFmCKtg" name="DI|tGSCopy" hidden="true" family="Cloud/Google Storage"/>
+    <componentsSettings xmi:id="_g55xGULMEeeGfMVCFmCKtg" name="DI|tAmazonOracleClose" hidden="true" family="Cloud/Amazon/Oracle"/>
+    <componentsSettings xmi:id="_g55xGkLMEeeGfMVCFmCKtg" name="DI|tDB2Row" hidden="true" family="Databases/DB2"/>
+    <componentsSettings xmi:id="_g55xG0LMEeeGfMVCFmCKtg" name="DI|tDB2Input" hidden="true" family="Databases/DB2"/>
+    <componentsSettings xmi:id="_g55xHELMEeeGfMVCFmCKtg" name="DI|tAlfrescoOutput" hidden="true" family="Business/Alfresco"/>
+    <componentsSettings xmi:id="_g55xHULMEeeGfMVCFmCKtg" name="DI|tSAPTableInput" hidden="true" family="Business/SAP"/>
+    <componentsSettings xmi:id="_g55xHkLMEeeGfMVCFmCKtg" name="DI|tInterbaseClose" hidden="true" family="Databases/Interbase"/>
+    <componentsSettings xmi:id="_g55xH0LMEeeGfMVCFmCKtg" name="DI|tOleDbRow" hidden="true" family="Databases/OleDb"/>
+    <componentsSettings xmi:id="_g55xIELMEeeGfMVCFmCKtg" name="DI|tLDAPClose" hidden="true" family="Databases/LDAP"/>
+    <componentsSettings xmi:id="_g55xIULMEeeGfMVCFmCKtg" name="DI|tMysqlSCD" hidden="true" family="Databases/MySQL"/>
+    <componentsSettings xmi:id="_g55xIkLMEeeGfMVCFmCKtg" name="DI|tTeradataInput" hidden="true" family="Databases/Teradata"/>
+    <componentsSettings xmi:id="_g55xI0LMEeeGfMVCFmCKtg" name="DI|tMysqlColumnList" hidden="true" family="Databases/MySQL"/>
+    <componentsSettings xmi:id="_g55xJELMEeeGfMVCFmCKtg" name="DI|tFirebirdRow" hidden="true" family="Databases/FireBird"/>
+    <componentsSettings xmi:id="_g55xJULMEeeGfMVCFmCKtg" name="DI|tPatternExtract" hidden="true" family="Data_Quality/Matching/Pattern matching"/>
+    <componentsSettings xmi:id="_g55xJkLMEeeGfMVCFmCKtg" name="DI|tHiveConnection" hidden="true" family="Databases/Hive"/>
+    <componentsSettings xmi:id="_g55xJ0LMEeeGfMVCFmCKtg" name="DI|tELTVerticaOutput" hidden="true" family="ELT/Map/Vertica"/>
+    <componentsSettings xmi:id="_g55xKELMEeeGfMVCFmCKtg" name="DI|tIngresSCD" hidden="true" family="Databases/Ingres"/>
+    <componentsSettings xmi:id="_g55xKULMEeeGfMVCFmCKtg" name="DI|tDB2Close" hidden="true" family="Databases/DB2"/>
+    <componentsSettings xmi:id="_g55xKkLMEeeGfMVCFmCKtg" name="DI|tNetezzaRow" hidden="true" family="Databases/Netezza"/>
+    <componentsSettings xmi:id="_g55xK0LMEeeGfMVCFmCKtg" name="DI|tVtigerCRMInput" hidden="true" family="Business/VtigerCRM"/>
+    <componentsSettings xmi:id="_g55xLELMEeeGfMVCFmCKtg" name="DI|tFuzzyUniqRow" hidden="true" family="Data_Quality/Matching"/>
+    <componentsSettings xmi:id="_g55xLULMEeeGfMVCFmCKtg" name="DI|tSugarCRMInput" hidden="true" family="Cloud/SugarCRM"/>
+    <componentsSettings xmi:id="_g55xLkLMEeeGfMVCFmCKtg" name="DI|tGroovy" hidden="true" family="Custom_Code"/>
+    <componentsSettings xmi:id="_g55xL0LMEeeGfMVCFmCKtg" name="DI|tSurviveFields" hidden="true" family="Data_Quality/Survivorship"/>
+    <componentsSettings xmi:id="_g55xMELMEeeGfMVCFmCKtg" name="DI|tJDBCOutput" hidden="true" family="Databases/DB_JDBC"/>
+    <componentsSettings xmi:id="_g56YIELMEeeGfMVCFmCKtg" name="DI|tTeradataTPTExec" hidden="true" family="Databases/Teradata"/>
+    <componentsSettings xmi:id="_g56YIULMEeeGfMVCFmCKtg" name="DI|tMaxDBRow" hidden="true" family="Databases/MaxDB"/>
+    <componentsSettings xmi:id="_g56YIkLMEeeGfMVCFmCKtg" name="DI|tIngresRow" hidden="true" family="Databases/Ingres"/>
+    <componentsSettings xmi:id="_g56YI0LMEeeGfMVCFmCKtg" name="DI|tMelissaDataAddress" hidden="true" family="Data_Quality/Address/MelissaData"/>
+    <componentsSettings xmi:id="_g56YJELMEeeGfMVCFmCKtg" name="DI|tMSSqlRollback" hidden="true" family="Databases/MS_SQL_Server"/>
+    <componentsSettings xmi:id="_g56YJULMEeeGfMVCFmCKtg" name="DI|tTeradataFastLoad" hidden="true" family="Databases/Teradata"/>
+    <componentsSettings xmi:id="_g56YJkLMEeeGfMVCFmCKtg" name="DI|tGSConnection" hidden="true" family="Cloud/Google Storage"/>
+    <componentsSettings xmi:id="_g56YJ0LMEeeGfMVCFmCKtg" name="DI|tSetGlobalVar" hidden="true" family="Custom_Code"/>
+    <componentsSettings xmi:id="_g56YKELMEeeGfMVCFmCKtg" name="DI|tOracleConnection" hidden="true" family="ELT/Connections"/>
+    <componentsSettings xmi:id="_g56YKULMEeeGfMVCFmCKtg" name="DI|tRedshiftRow" hidden="true" family="Databases/Amazon/Redshift"/>
+    <componentsSettings xmi:id="_g56YKkLMEeeGfMVCFmCKtg" name="DI|tAmazonOracleOutput" hidden="true" family="Databases/Amazon/Oracle"/>
+    <componentsSettings xmi:id="_g56YK0LMEeeGfMVCFmCKtg" name="DI|tGoogleAddressRow" hidden="true" family="Data_Quality/Address"/>
+    <componentsSettings xmi:id="_g56YLELMEeeGfMVCFmCKtg" name="DI|tNetsuiteOutput" hidden="true" family="Business/NetSuite"/>
+    <componentsSettings xmi:id="_g56YLULMEeeGfMVCFmCKtg" name="DI|tSAPInfoObjectInput" hidden="true" family="Business/SAP"/>
+    <componentsSettings xmi:id="_g56YLkLMEeeGfMVCFmCKtg" name="DI|tCentricCRMOutput" hidden="true" family="Business/CentricCRM"/>
+    <componentsSettings xmi:id="_g56YL0LMEeeGfMVCFmCKtg" name="DI|tAzureStorageConnection" hidden="true" family="Cloud/Azure Storage"/>
+    <componentsSettings xmi:id="_g56YMELMEeeGfMVCFmCKtg" name="DI|tNetezzaSCD" hidden="true" family="Databases/Netezza"/>
+    <componentsSettings xmi:id="_g56YMULMEeeGfMVCFmCKtg" name="DI|tPaloCube" hidden="true" family="Business_Intelligence/OLAP_Cube/Palo"/>
+    <componentsSettings xmi:id="_g56YMkLMEeeGfMVCFmCKtg" name="DI|tTeradataConnection" hidden="true" family="ELT/Connections"/>
+    <componentsSettings xmi:id="_g56YM0LMEeeGfMVCFmCKtg" name="DI|tAS400LastInsertId" hidden="true" family="Databases/AS400"/>
+    <componentsSettings xmi:id="_g56YNELMEeeGfMVCFmCKtg" name="DI|tAccessConnection" hidden="true" family="Databases/Access"/>
+    <componentsSettings xmi:id="_g56YNULMEeeGfMVCFmCKtg" name="DI|tSAPDSOOutput" hidden="true" family="Business/SAP"/>
+    <componentsSettings xmi:id="_g56YNkLMEeeGfMVCFmCKtg" name="DI|tGoogleDriveList" hidden="true" family="Cloud/Google Drive"/>
+    <componentsSettings xmi:id="_g56YN0LMEeeGfMVCFmCKtg" name="DI|tRedshiftUnload" hidden="true" family="Cloud/Amazon/Redshift"/>
+    <componentsSettings xmi:id="_g56YOELMEeeGfMVCFmCKtg" name="DI|tRedshiftInput" hidden="true" family="Cloud/Amazon/Redshift"/>
+    <componentsSettings xmi:id="_g56YOULMEeeGfMVCFmCKtg" name="DI|tMSSqlColumnList" hidden="true" family="Databases/MS_SQL_Server"/>
+    <componentsSettings xmi:id="_g56YOkLMEeeGfMVCFmCKtg" name="DI|tIngresOutputBulk" hidden="true" family="Databases/Ingres"/>
+    <componentsSettings xmi:id="_g56YO0LMEeeGfMVCFmCKtg" name="DI|tInformixBulkExec" hidden="true" family="Databases/Informix"/>
+    <componentsSettings xmi:id="_g56YPELMEeeGfMVCFmCKtg" name="DI|tEXistXQuery" hidden="true" family="Databases/eXist"/>
+    <componentsSettings xmi:id="_g56_MELMEeeGfMVCFmCKtg" name="DI|tStandardizeRow" hidden="true" family="Data_Quality/Standardization"/>
+    <componentsSettings xmi:id="_g56_MULMEeeGfMVCFmCKtg" name="DI|tELTOracleMap" hidden="true" family="ELT/Map/Oracle"/>
+    <componentsSettings xmi:id="_g56_MkLMEeeGfMVCFmCKtg" name="DI|tGreenplumClose" hidden="true" family="Databases/Greenplum"/>
+    <componentsSettings xmi:id="_g56_M0LMEeeGfMVCFmCKtg" name="DI|tSAPDSOInput" hidden="true" family="Databases/SAP"/>
+    <componentsSettings xmi:id="_g56_NELMEeeGfMVCFmCKtg" name="DI|tAzureStorageList" hidden="true" family="Cloud/Azure Storage"/>
+    <componentsSettings xmi:id="_g56_NULMEeeGfMVCFmCKtg" name="DI|tAzureStorageContainerExist" hidden="true" family="Cloud/Azure Storage"/>
+    <componentsSettings xmi:id="_g56_NkLMEeeGfMVCFmCKtg" name="DI|tNetezzaCommit" hidden="true" family="Databases/Netezza"/>
+    <componentsSettings xmi:id="_g56_N0LMEeeGfMVCFmCKtg" name="DI|tGreenplumOutputBulkExec" hidden="true" family="Databases/Greenplum"/>
+    <componentsSettings xmi:id="_g56_OELMEeeGfMVCFmCKtg" name="DI|tChangeFileEncoding" hidden="true" family="Data_Quality"/>
+    <componentsSettings xmi:id="_g56_OULMEeeGfMVCFmCKtg" name="DI|tAmazonMysqlConnection" hidden="true" family="Cloud/Amazon/MySQL"/>
+    <componentsSettings xmi:id="_g56_OkLMEeeGfMVCFmCKtg" name="DI|tFindRegexlibExpressions" hidden="true" family="Data_Quality"/>
+    <componentsSettings xmi:id="_g56_O0LMEeeGfMVCFmCKtg" name="DI|tCloudStart" hidden="true" family="Cloud"/>
+    <componentsSettings xmi:id="_g56_PELMEeeGfMVCFmCKtg" name="DI|tNetezzaBulkExec" hidden="true" family="Databases/Netezza"/>
+    <componentsSettings xmi:id="_g56_PULMEeeGfMVCFmCKtg" name="DI|tParAccelRow" hidden="true" family="Databases/ParAccel"/>
+    <componentsSettings xmi:id="_g56_PkLMEeeGfMVCFmCKtg" name="DI|tEXistDelete" hidden="true" family="Databases/eXist"/>
+    <componentsSettings xmi:id="_g56_P0LMEeeGfMVCFmCKtg" name="DI|tSybaseConnection" hidden="true" family="Databases/Sybase"/>
+    <componentsSettings xmi:id="_g56_QELMEeeGfMVCFmCKtg" name="DI|tEXAInput" hidden="true" family="Databases/EXASolution"/>
+    <componentsSettings xmi:id="_g56_QULMEeeGfMVCFmCKtg" name="DI|tVectorWiseRollback" hidden="true" family="Databases/VectorWise"/>
+    <componentsSettings xmi:id="_g56_QkLMEeeGfMVCFmCKtg" name="DI|tJDBCClose" hidden="true" family="Databases/DB_JDBC"/>
+    <componentsSettings xmi:id="_g56_Q0LMEeeGfMVCFmCKtg" name="DI|tTeradataSCD" hidden="true" family="Databases/Teradata"/>
+    <componentsSettings xmi:id="_g56_RELMEeeGfMVCFmCKtg" name="DI|tEXAOutput" hidden="true" family="Databases/EXASolution"/>
+    <componentsSettings xmi:id="_g56_RULMEeeGfMVCFmCKtg" name="DI|tMarketoInput" hidden="true" family="Business/Marketo"/>
+    <componentsSettings xmi:id="_g56_RkLMEeeGfMVCFmCKtg" name="DI|tGoogleDriveDelete" hidden="true" family="Cloud/Google Drive"/>
+    <componentsSettings xmi:id="_g56_R0LMEeeGfMVCFmCKtg" name="DI|tPostgresPlusClose" hidden="true" family="Databases/PostgresPlus"/>
+    <componentsSettings xmi:id="_g56_SELMEeeGfMVCFmCKtg" name="DI|tELTMysqlInput" hidden="true" family="ELT/Map/MySQL"/>
+    <componentsSettings xmi:id="_g56_SULMEeeGfMVCFmCKtg" name="DI|tInformixSCD" hidden="true" family="Business_Intelligence/DB_SCD"/>
+    <componentsSettings xmi:id="_g56_SkLMEeeGfMVCFmCKtg" name="DI|tFirebirdOutput" hidden="true" family="Databases/FireBird"/>
+    <componentsSettings xmi:id="_g56_S0LMEeeGfMVCFmCKtg" name="DI|tS3List" hidden="true" family="Cloud/Amazon/S3"/>
+    <componentsSettings xmi:id="_g56_TELMEeeGfMVCFmCKtg" name="DI|tInformixClose" hidden="true" family="Databases/Informix"/>
+    <componentsSettings xmi:id="_g57mQELMEeeGfMVCFmCKtg" name="DI|tInformixOutput" hidden="true" family="Databases/Informix"/>
+    <componentsSettings xmi:id="_ilPRgELMEeeGfMVCFmCKtg" name="DI|tActionFailure" hidden="true" family="Talend Cloud/Action"/>
+    <componentsSettings xmi:id="_ilPRgULMEeeGfMVCFmCKtg" name="DI|tExtractXMLField" hidden="true" family="XML"/>
+    <componentsSettings xmi:id="_ilPRgkLMEeeGfMVCFmCKtg" name="DI|tActionInput" hidden="true" family="Talend Cloud/Action"/>
+    <componentsSettings xmi:id="_ilPRg0LMEeeGfMVCFmCKtg" name="DI|tMDMViewSearch" hidden="true" family="Talend MDM"/>
+    <componentsSettings xmi:id="_ilP4kELMEeeGfMVCFmCKtg" name="DI|tSurviveFields" hidden="true" family="Talend MDM"/>
+    <componentsSettings xmi:id="_ilP4kULMEeeGfMVCFmCKtg" name="DI|tSystem" hidden="true" family="System"/>
+    <componentsSettings xmi:id="_ilP4kkLMEeeGfMVCFmCKtg" name="DI|tStewardshipTaskInput" hidden="true" family="Talend MDM"/>
+    <componentsSettings xmi:id="_ilP4k0LMEeeGfMVCFmCKtg" name="DI|tMDMDelete" hidden="true" family="Talend MDM"/>
+    <componentsSettings xmi:id="_ilP4lELMEeeGfMVCFmCKtg" name="DI|tMDMTriggerOutput" hidden="true" family="Talend MDM"/>
+    <componentsSettings xmi:id="_ilP4lULMEeeGfMVCFmCKtg" name="DI|tHL7Input" hidden="true" family="Unstructured/HL7"/>
+    <componentsSettings xmi:id="_ilP4lkLMEeeGfMVCFmCKtg" name="DI|tWriteXMLField" hidden="true" family="XML"/>
+    <componentsSettings xmi:id="_ilP4l0LMEeeGfMVCFmCKtg" name="DI|tEDIFACTtoXML" hidden="true" family="XML"/>
+    <componentsSettings xmi:id="_ilP4mELMEeeGfMVCFmCKtg" name="DI|tStewardshipTaskOutput" hidden="true" family="Talend MDM"/>
+    <componentsSettings xmi:id="_ilP4mULMEeeGfMVCFmCKtg" name="DI|tMDMClose" hidden="true" family="Talend MDM"/>
+    <componentsSettings xmi:id="_ilP4mkLMEeeGfMVCFmCKtg" name="DI|tMDMConnection" hidden="true" family="Talend MDM"/>
+    <componentsSettings xmi:id="_ilP4m0LMEeeGfMVCFmCKtg" name="DI|tXSLT" hidden="true" family="XML"/>
+    <componentsSettings xmi:id="_ilP4nELMEeeGfMVCFmCKtg" name="DI|tMDMBulkLoad" hidden="true" family="Talend MDM"/>
+    <componentsSettings xmi:id="_ilP4nULMEeeGfMVCFmCKtg" name="DI|tMDMRestInput" hidden="true" family="Talend MDM"/>
+    <componentsSettings xmi:id="_ilP4nkLMEeeGfMVCFmCKtg" name="DI|tHL7Output" hidden="true" family="Unstructured/HL7"/>
+    <componentsSettings xmi:id="_ilP4n0LMEeeGfMVCFmCKtg" name="DI|tXMLMap" hidden="true" family="XML"/>
+    <componentsSettings xmi:id="_ilP4oELMEeeGfMVCFmCKtg" name="DI|tEDIFACTtoXML" hidden="true" family="Unstructured/EDIFACT"/>
+    <componentsSettings xmi:id="_ilP4oULMEeeGfMVCFmCKtg" name="DI|tMDMSP" hidden="true" family="Talend MDM"/>
+    <componentsSettings xmi:id="_ilP4okLMEeeGfMVCFmCKtg" name="DI|tDTDValidator" hidden="true" family="XML"/>
+    <componentsSettings xmi:id="_ilP4o0LMEeeGfMVCFmCKtg" name="DI|tSSH" hidden="true" family="System"/>
+    <componentsSettings xmi:id="_ilP4pELMEeeGfMVCFmCKtg" name="DI|tMDMCommit" hidden="true" family="Talend MDM"/>
+    <componentsSettings xmi:id="_ilP4pULMEeeGfMVCFmCKtg" name="DI|tMDMReceive" hidden="true" family="Talend MDM"/>
+    <componentsSettings xmi:id="_ilP4pkLMEeeGfMVCFmCKtg" name="DI|tFileOutputXML" hidden="true" family="XML"/>
+    <componentsSettings xmi:id="_ilP4p0LMEeeGfMVCFmCKtg" name="DI|tXSDValidator" hidden="true" family="XML"/>
+    <componentsSettings xmi:id="_ilP4qELMEeeGfMVCFmCKtg" name="DI|tStewardshipTaskDelete" hidden="true" family="Talend MDM"/>
+    <componentsSettings xmi:id="_ilP4qULMEeeGfMVCFmCKtg" name="DI|tMDMRollback" hidden="true" family="Talend MDM"/>
+    <componentsSettings xmi:id="_ilP4qkLMEeeGfMVCFmCKtg" name="DI|tMDMOutput" hidden="true" family="Talend MDM"/>
+    <componentsSettings xmi:id="_ilP4q0LMEeeGfMVCFmCKtg" name="DI|tActionReject" hidden="true" family="Talend Cloud/Action"/>
+    <componentsSettings xmi:id="_ilQfoELMEeeGfMVCFmCKtg" name="DI|tDataprepRun" hidden="true" family="Talend Data Preparation"/>
+    <componentsSettings xmi:id="_ilQfoULMEeeGfMVCFmCKtg" name="DI|tActionOutput" hidden="true" family="Talend Cloud/Action"/>
+    <componentsSettings xmi:id="_ilQfokLMEeeGfMVCFmCKtg" name="DI|tMDMTriggerInput" hidden="true" family="Talend MDM"/>
+    <componentsSettings xmi:id="_ilQfo0LMEeeGfMVCFmCKtg" name="DI|tSetEnv" hidden="true" family="System"/>
+    <componentsSettings xmi:id="_ilQfpELMEeeGfMVCFmCKtg" name="DI|tMDMRouteRecord" hidden="true" family="Talend MDM"/>
+    <componentsSettings xmi:id="_ilQfpULMEeeGfMVCFmCKtg" name="DI|tExtractEDIField" hidden="true" family="Unstructured/EDIFACT"/>
+    <componentsSettings xmi:id="_ilQfpkLMEeeGfMVCFmCKtg" name="DI|tRunJob" hidden="true" family="System"/>
+    <componentsSettings xmi:id="_ilQfp0LMEeeGfMVCFmCKtg" name="DI|tMDMInput" hidden="true" family="Talend MDM"/>
+    <componentsSettings xmi:id="_ilQfqELMEeeGfMVCFmCKtg" name="DI|tFileInputXML" hidden="true" family="XML"/>
+    <componentsSettings xmi:id="_ilQfqULMEeeGfMVCFmCKtg" name="DI|tAdvancedFileOutputXML" hidden="true" family="XML"/>
+    <componentsSettings xmi:id="_ilQfqkLMEeeGfMVCFmCKtg" name="DI|tActionLog" hidden="true" family="Talend Cloud/Action"/>
+    <componentsSettings xmi:id="_jQbjkELMEeeGfMVCFmCKtg" name="DI|tRouteOutput" hidden="true" family="ESB/Route"/>
+    <componentsSettings xmi:id="_jQcKoELMEeeGfMVCFmCKtg" name="DI|tESBProviderRequest" hidden="true" family="ESB/Web Services"/>
+    <componentsSettings xmi:id="_jQcKoULMEeeGfMVCFmCKtg" name="DI|tRouteInput" hidden="true" family="ESB/Route"/>
+    <componentsSettings xmi:id="_jQcKokLMEeeGfMVCFmCKtg" name="DI|tRESTClient" hidden="true" family="ESB/REST"/>
+    <componentsSettings xmi:id="_jQcKo0LMEeeGfMVCFmCKtg" name="DI|tESBProviderFault" hidden="true" family="ESB/Web Services"/>
+    <componentsSettings xmi:id="_jQcKpELMEeeGfMVCFmCKtg" name="DI|tESBProviderResponse" hidden="true" family="ESB/Web Services"/>
+    <componentsSettings xmi:id="_jQcKpULMEeeGfMVCFmCKtg" name="DI|tRESTResponse" hidden="true" family="ESB/REST"/>
+    <componentsSettings xmi:id="_jQcKpkLMEeeGfMVCFmCKtg" name="DI|tRouteFault" hidden="true" family="ESB/Route"/>
+    <componentsSettings xmi:id="_jQcKp0LMEeeGfMVCFmCKtg" name="DI|tRESTRequest" hidden="true" family="ESB/REST"/>
+    <componentsSettings xmi:id="_jQcKqELMEeeGfMVCFmCKtg" name="DI|tESBConsumer" hidden="true" family="ESB/Web Services"/>
+    <componentsSettings xmi:id="_jv8KEELMEeeGfMVCFmCKtg" name="DI|tSetKerberosConfiguration" hidden="true" family="Internet"/>
+    <componentsSettings xmi:id="_jv8KEULMEeeGfMVCFmCKtg" name="DI|tJBossESBInput" hidden="true" family="Internet/ESB"/>
+    <componentsSettings xmi:id="_jv8xIELMEeeGfMVCFmCKtg" name="DI|tFTPFileExist" hidden="true" family="Internet/FTP"/>
+    <componentsSettings xmi:id="_jv8xIULMEeeGfMVCFmCKtg" name="DI|tFlowMeter" hidden="true" family="Logs_Errors"/>
+    <componentsSettings xmi:id="_jv8xIkLMEeeGfMVCFmCKtg" name="DI|tFTPGet" hidden="true" family="Internet/FTP"/>
+    <componentsSettings xmi:id="_jv8xI0LMEeeGfMVCFmCKtg" name="DI|tFlowMeterCatcher" hidden="true" family="Logs_Errors"/>
+    <componentsSettings xmi:id="_jv8xJELMEeeGfMVCFmCKtg" name="DI|tSocketInput" hidden="true" family="Internet"/>
+    <componentsSettings xmi:id="_jv8xJULMEeeGfMVCFmCKtg" name="DI|tWarn" hidden="true" family="Logs_Errors"/>
+    <componentsSettings xmi:id="_jv8xJkLMEeeGfMVCFmCKtg" name="DI|tFileInputJSON" hidden="true" family="Internet"/>
+    <componentsSettings xmi:id="_jv8xJ0LMEeeGfMVCFmCKtg" name="DI|tMomCommit" hidden="true" family="Internet/MOM and JMS"/>
+    <componentsSettings xmi:id="_jv8xKELMEeeGfMVCFmCKtg" name="DI|tXMLRPCInput" hidden="true" family="Internet"/>
+    <componentsSettings xmi:id="_jv8xKULMEeeGfMVCFmCKtg" name="DI|tWebService" hidden="true" family="Internet"/>
+    <componentsSettings xmi:id="_jv8xKkLMEeeGfMVCFmCKtg" name="DI|tSCPConnection" hidden="true" family="Internet/SCP"/>
+    <componentsSettings xmi:id="_jv8xK0LMEeeGfMVCFmCKtg" name="DI|tPOP" hidden="true" family="Internet"/>
+    <componentsSettings xmi:id="_jv8xLELMEeeGfMVCFmCKtg" name="DI|tFTPFileProperties" hidden="true" family="Internet/FTP"/>
+    <componentsSettings xmi:id="_jv8xLULMEeeGfMVCFmCKtg" name="DI|tFTPConnection" hidden="true" family="Internet/FTP"/>
+    <componentsSettings xmi:id="_jv8xLkLMEeeGfMVCFmCKtg" name="DI|tSCPPut" hidden="true" family="Internet/SCP"/>
+    <componentsSettings xmi:id="_jv8xL0LMEeeGfMVCFmCKtg" name="DI|tSOAP" hidden="true" family="Internet"/>
+    <componentsSettings xmi:id="_jv8xMELMEeeGfMVCFmCKtg" name="DI|tPetalsOutput" hidden="true" family="Internet/ESB"/>
+    <componentsSettings xmi:id="_jv8xMULMEeeGfMVCFmCKtg" name="DI|tBufferInput" hidden="true" family="Misc"/>
+    <componentsSettings xmi:id="_jv8xMkLMEeeGfMVCFmCKtg" name="DI|tHttpRequest" hidden="true" family="Internet"/>
+    <componentsSettings xmi:id="_jv8xM0LMEeeGfMVCFmCKtg" name="DI|tServerAlive" hidden="true" family="Misc"/>
+    <componentsSettings xmi:id="_jv8xNELMEeeGfMVCFmCKtg" name="DI|tJMSInput" hidden="true" family="Internet/MOM and JMS"/>
+    <componentsSettings xmi:id="_jv8xNULMEeeGfMVCFmCKtg" name="DI|tMomInput" hidden="true" family="Internet/MOM and JMS"/>
+    <componentsSettings xmi:id="_jv8xNkLMEeeGfMVCFmCKtg" name="DI|tAddLocationFromIP" hidden="true" family="Misc"/>
+    <componentsSettings xmi:id="_jv8xN0LMEeeGfMVCFmCKtg" name="DI|tFTPFileList" hidden="true" family="Internet/FTP"/>
+    <componentsSettings xmi:id="_jv8xOELMEeeGfMVCFmCKtg" name="DI|tJBossESBOutput" hidden="true" family="Internet/ESB"/>
+    <componentsSettings xmi:id="_jv8xOULMEeeGfMVCFmCKtg" name="DI|tBufferOutput" hidden="true" family="Misc"/>
+    <componentsSettings xmi:id="_jv8xOkLMEeeGfMVCFmCKtg" name="DI|tMomMessageIdList" hidden="true" family="Internet/MOM and JMS"/>
+    <componentsSettings xmi:id="_jv8xO0LMEeeGfMVCFmCKtg" name="DI|tSetKeystore" hidden="true" family="Internet"/>
+    <componentsSettings xmi:id="_jv8xPELMEeeGfMVCFmCKtg" name="DI|tMsgBox" hidden="true" family="Misc"/>
+    <componentsSettings xmi:id="_jv8xPULMEeeGfMVCFmCKtg" name="DI|tMomRollback" hidden="true" family="Internet/MOM and JMS"/>
+    <componentsSettings xmi:id="_jv8xPkLMEeeGfMVCFmCKtg" name="DI|tRowGenerator" hidden="true" family="Misc"/>
+    <componentsSettings xmi:id="_jv8xP0LMEeeGfMVCFmCKtg" name="DI|tAssertCatcher" hidden="true" family="Logs_Errors"/>
+    <componentsSettings xmi:id="_jv8xQELMEeeGfMVCFmCKtg" name="DI|tRSSInput" hidden="true" family="Internet"/>
+    <componentsSettings xmi:id="_jv8xQULMEeeGfMVCFmCKtg" name="DI|tLogRow" hidden="true" family="Logs_Errors"/>
+    <componentsSettings xmi:id="_jv8xQkLMEeeGfMVCFmCKtg" name="DI|tSetProxy" hidden="true" family="Internet"/>
+    <componentsSettings xmi:id="_jv8xQ0LMEeeGfMVCFmCKtg" name="DI|tMicrosoftMQInput" hidden="true" family="Internet/MOM and JMS"/>
+    <componentsSettings xmi:id="_jv8xRELMEeeGfMVCFmCKtg" name="DI|tChronometerStop" hidden="true" family="Logs_Errors"/>
+    <componentsSettings xmi:id="_jv9YMELMEeeGfMVCFmCKtg" name="DI|tMemorizeRows" hidden="true" family="Misc"/>
+    <componentsSettings xmi:id="_jv9YMULMEeeGfMVCFmCKtg" name="DI|tSCPTruncate" hidden="true" family="Internet/SCP"/>
+    <componentsSettings xmi:id="_jv9YMkLMEeeGfMVCFmCKtg" name="DI|tFixedFlowInput" hidden="true" family="Misc"/>
+    <componentsSettings xmi:id="_jv9YM0LMEeeGfMVCFmCKtg" name="DI|tFTPPut" hidden="true" family="Internet/FTP"/>
+    <componentsSettings xmi:id="_jv9YNELMEeeGfMVCFmCKtg" name="DI|tREST" hidden="true" family="Internet"/>
+    <componentsSettings xmi:id="_jv9YNULMEeeGfMVCFmCKtg" name="DI|tMomOutput" hidden="true" family="Internet/MOM and JMS"/>
+    <componentsSettings xmi:id="_jv9YNkLMEeeGfMVCFmCKtg" name="DI|tLogCatcher" hidden="true" family="Logs_Errors"/>
+    <componentsSettings xmi:id="_jv9YN0LMEeeGfMVCFmCKtg" name="DI|tPetalsInput" hidden="true" family="Internet/ESB"/>
+    <componentsSettings xmi:id="_jv9YOELMEeeGfMVCFmCKtg" name="DI|tSVNLogInput" hidden="true" family="Internet"/>
+    <componentsSettings xmi:id="_jv9YOULMEeeGfMVCFmCKtg" name="DI|tRSSOutput" hidden="true" family="Internet"/>
+    <componentsSettings xmi:id="_jv9YOkLMEeeGfMVCFmCKtg" name="DI|tContextDump" hidden="true" family="Misc"/>
+    <componentsSettings xmi:id="_jv9YO0LMEeeGfMVCFmCKtg" name="DI|tWebServiceInput" hidden="true" family="Internet"/>
+    <componentsSettings xmi:id="_jv9YPELMEeeGfMVCFmCKtg" name="DI|tSCPClose" hidden="true" family="Internet/SCP"/>
+    <componentsSettings xmi:id="_jv9YPULMEeeGfMVCFmCKtg" name="DI|tSCPRename" hidden="true" family="Internet/SCP"/>
+    <componentsSettings xmi:id="_jv9YPkLMEeeGfMVCFmCKtg" name="DI|tContextLoad" hidden="true" family="Misc"/>
+    <componentsSettings xmi:id="_jv9YP0LMEeeGfMVCFmCKtg" name="DI|tFTPDelete" hidden="true" family="Internet/FTP"/>
+    <componentsSettings xmi:id="_jv9YQELMEeeGfMVCFmCKtg" name="DI|tMomConnection" hidden="true" family="Internet/MOM and JMS"/>
+    <componentsSettings xmi:id="_jv9YQULMEeeGfMVCFmCKtg" name="DI|tSocketOutput" hidden="true" family="Internet"/>
+    <componentsSettings xmi:id="_jv9YQkLMEeeGfMVCFmCKtg" name="DI|tSCPFileExists" hidden="true" family="Internet/SCP"/>
+    <componentsSettings xmi:id="_jv9YQ0LMEeeGfMVCFmCKtg" name="DI|tChronometerStart" hidden="true" family="Logs_Errors"/>
+    <componentsSettings xmi:id="_jv9YRELMEeeGfMVCFmCKtg" name="DI|tDie" hidden="true" family="Logs_Errors"/>
+    <componentsSettings xmi:id="_jv9YRULMEeeGfMVCFmCKtg" name="DI|tFTPRename" hidden="true" family="Internet/FTP"/>
+    <componentsSettings xmi:id="_jv9YRkLMEeeGfMVCFmCKtg" name="DI|tSCPFileList" hidden="true" family="Internet/SCP"/>
+    <componentsSettings xmi:id="_jv9YR0LMEeeGfMVCFmCKtg" name="DI|tJMSOutput" hidden="true" family="Internet/MOM and JMS"/>
+    <componentsSettings xmi:id="_jv9YSELMEeeGfMVCFmCKtg" name="DI|tStatCatcher" hidden="true" family="Logs_Errors"/>
+    <componentsSettings xmi:id="_jv9YSULMEeeGfMVCFmCKtg" name="DI|tSCPDelete" hidden="true" family="Internet/SCP"/>
+    <componentsSettings xmi:id="_jv9YSkLMEeeGfMVCFmCKtg" name="DI|tSCPGet" hidden="true" family="Internet/SCP"/>
+    <componentsSettings xmi:id="_jv9YS0LMEeeGfMVCFmCKtg" name="DI|tFileFetch" hidden="true" family="Internet"/>
+    <componentsSettings xmi:id="_jv9YTELMEeeGfMVCFmCKtg" name="DI|tAssert" hidden="true" family="Logs_Errors"/>
+    <componentsSettings xmi:id="_jv9YTULMEeeGfMVCFmCKtg" name="DI|tSendMail" hidden="true" family="Internet"/>
+    <componentsSettings xmi:id="_jv9YTkLMEeeGfMVCFmCKtg" name="DI|tFTPTruncate" hidden="true" family="Internet/FTP"/>
+    <componentsSettings xmi:id="_jv9YT0LMEeeGfMVCFmCKtg" name="DI|tMicrosoftMQOutput" hidden="true" family="Internet/MOM and JMS"/>
+    <componentsSettings xmi:id="_lu1fsELMEeeGfMVCFmCKtg" name="DI|tRunJob" hidden="true" family="Orchestration"/>
+    <componentsSettings xmi:id="_lu2GwELMEeeGfMVCFmCKtg" name="DI|tReplicate" hidden="true" family="Orchestration"/>
+    <componentsSettings xmi:id="_lu2GwULMEeeGfMVCFmCKtg" name="DI|tDepartitioner" hidden="true" family="Orchestration"/>
+    <componentsSettings xmi:id="_lu2GwkLMEeeGfMVCFmCKtg" name="DI|tPrejob" hidden="true" family="Orchestration"/>
+    <componentsSettings xmi:id="_lu2Gw0LMEeeGfMVCFmCKtg" name="DI|tParallelize" hidden="true" family="Orchestration"/>
+    <componentsSettings xmi:id="_lu2GxELMEeeGfMVCFmCKtg" name="DI|tCollector" hidden="true" family="Orchestration"/>
+    <componentsSettings xmi:id="_lu2GxULMEeeGfMVCFmCKtg" name="DI|tForeach" hidden="true" family="Orchestration"/>
+    <componentsSettings xmi:id="_lu2GxkLMEeeGfMVCFmCKtg" name="DI|tLoop" hidden="true" family="Orchestration"/>
+    <componentsSettings xmi:id="_lu2Gx0LMEeeGfMVCFmCKtg" name="DI|tPartitioner" hidden="true" family="Orchestration"/>
+    <componentsSettings xmi:id="_lu2GyELMEeeGfMVCFmCKtg" name="DI|tFlowToIterate" hidden="true" family="Orchestration"/>
+    <componentsSettings xmi:id="_lu2GyULMEeeGfMVCFmCKtg" name="DI|tWaitForSocket" hidden="true" family="Orchestration"/>
+    <componentsSettings xmi:id="_lu2GykLMEeeGfMVCFmCKtg" name="DI|tWaitForFile" hidden="true" family="Orchestration"/>
+    <componentsSettings xmi:id="_lu2Gy0LMEeeGfMVCFmCKtg" name="DI|tWaitForSqlData" hidden="true" family="Orchestration"/>
+    <componentsSettings xmi:id="_lu2GzELMEeeGfMVCFmCKtg" name="DI|tIterateToFlow" hidden="true" family="Orchestration"/>
+    <componentsSettings xmi:id="_lu2GzULMEeeGfMVCFmCKtg" name="DI|tSleep" hidden="true" family="Orchestration"/>
+    <componentsSettings xmi:id="_lu2GzkLMEeeGfMVCFmCKtg" name="DI|tInfiniteLoop" hidden="true" family="Orchestration"/>
+    <componentsSettings xmi:id="_lu2Gz0LMEeeGfMVCFmCKtg" name="DI|tPostjob" hidden="true" family="Orchestration"/>
+    <componentsSettings xmi:id="_lu2G0ELMEeeGfMVCFmCKtg" name="DI|tFileList" hidden="true" family="Orchestration"/>
+    <componentsSettings xmi:id="_lu2G0ULMEeeGfMVCFmCKtg" name="DI|tUnite" hidden="true" family="Orchestration"/>
+    <componentsSettings xmi:id="_lu2G0kLMEeeGfMVCFmCKtg" name="DI|tRecollector" hidden="true" family="Orchestration"/>
+    <componentsSettings xmi:id="_mqWFsELMEeeGfMVCFmCKtg" name="DI|tWriteJSONField" hidden="true" family="Processing/Fields"/>
+    <componentsSettings xmi:id="_mqWswELMEeeGfMVCFmCKtg" name="DI|tSampleRow" hidden="true" family="Processing"/>
+    <componentsSettings xmi:id="_mqWswULMEeeGfMVCFmCKtg" name="DI|tWriteDynamicFields" hidden="true" family="Processing/Fields"/>
+    <componentsSettings xmi:id="_mqWswkLMEeeGfMVCFmCKtg" name="DI|tFilterColumns" hidden="true" family="Processing"/>
+    <componentsSettings xmi:id="_mqWsw0LMEeeGfMVCFmCKtg" name="DI|tDenormalize" hidden="true" family="Processing/Fields"/>
+    <componentsSettings xmi:id="_mqWsxELMEeeGfMVCFmCKtg" name="DI|tExtractXMLField" hidden="true" family="Processing/Fields"/>
+    <componentsSettings xmi:id="_mqWsxULMEeeGfMVCFmCKtg" name="DI|tHMap" hidden="true" family="Processing"/>
+    <componentsSettings xmi:id="_mqWsxkLMEeeGfMVCFmCKtg" name="DI|tRules" hidden="true" family="Processing"/>
+    <componentsSettings xmi:id="_mqWsx0LMEeeGfMVCFmCKtg" name="DI|tDenormalizeSortedRow" hidden="true" family="Processing/Fields"/>
+    <componentsSettings xmi:id="_mqWsyELMEeeGfMVCFmCKtg" name="DI|tExtractDynamicFields" hidden="true" family="Processing/Fields"/>
+    <componentsSettings xmi:id="_mqWsyULMEeeGfMVCFmCKtg" name="DI|tExtractRegexFields" hidden="true" family="Processing/Fields"/>
+    <componentsSettings xmi:id="_mqWsykLMEeeGfMVCFmCKtg" name="DI|tJoin" hidden="true" family="Processing"/>
+    <componentsSettings xmi:id="_mqWsy0LMEeeGfMVCFmCKtg" name="DI|tFilterRow" hidden="true" family="Processing"/>
+    <componentsSettings xmi:id="_mqWszELMEeeGfMVCFmCKtg" name="DI|tSortRow" hidden="true" family="Processing"/>
+    <componentsSettings xmi:id="_mqWszULMEeeGfMVCFmCKtg" name="DI|tConvertType" hidden="true" family="Processing"/>
+    <componentsSettings xmi:id="_mqWszkLMEeeGfMVCFmCKtg" name="DI|tAggregateSortedRow" hidden="true" family="Processing"/>
+    <componentsSettings xmi:id="_mqWsz0LMEeeGfMVCFmCKtg" name="DI|tExternalSortRow" hidden="true" family="Processing"/>
+    <componentsSettings xmi:id="_mqWs0ELMEeeGfMVCFmCKtg" name="DI|tWriteXMLField" hidden="true" family="Processing/Fields"/>
+    <componentsSettings xmi:id="_mqWs0ULMEeeGfMVCFmCKtg" name="DI|tExtractDelimitedFields" hidden="true" family="Processing/Fields"/>
+    <componentsSettings xmi:id="_mqWs0kLMEeeGfMVCFmCKtg" name="DI|tReplace" hidden="true" family="Processing"/>
+    <componentsSettings xmi:id="_mqWs00LMEeeGfMVCFmCKtg" name="DI|tMap" hidden="true" family="Processing"/>
+    <componentsSettings xmi:id="_mqWs1ELMEeeGfMVCFmCKtg" name="DI|tXMLMap" hidden="true" family="Processing"/>
+    <componentsSettings xmi:id="_mqWs1ULMEeeGfMVCFmCKtg" name="DI|tAggregateRow" hidden="true" family="Processing"/>
+    <componentsSettings xmi:id="_mqWs1kLMEeeGfMVCFmCKtg" name="DI|tSplitRow" hidden="true" family="Processing/Fields"/>
+    <componentsSettings xmi:id="_mqWs10LMEeeGfMVCFmCKtg" name="DI|tBRMS" hidden="true" family="Processing"/>
+    <componentsSettings xmi:id="_mqWs2ELMEeeGfMVCFmCKtg" name="DI|tSurviveFields" hidden="true" family="Processing"/>
+    <componentsSettings xmi:id="_mqWs2ULMEeeGfMVCFmCKtg" name="DI|tExtractPositionalFields" hidden="true" family="Processing/Fields"/>
+    <componentsSettings xmi:id="_mqWs2kLMEeeGfMVCFmCKtg" name="DI|tNormalize" hidden="true" family="Processing/Fields"/>
+    <componentsSettings xmi:id="_mqWs20LMEeeGfMVCFmCKtg" name="DI|tExtractJSONFields" hidden="true" family="Processing/Fields"/>
     <migrationTask xmi:id="_u6fMYELLEeeGfMVCFmCKtg" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_u6fMYULLEeeGfMVCFmCKtg" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_u6fMYkLLEeeGfMVCFmCKtg" id="org.talend.repository.model.migration.CleanFoldersMigrationTask" breaks="5.1.1" version="5.1.2" status="ok"/>
