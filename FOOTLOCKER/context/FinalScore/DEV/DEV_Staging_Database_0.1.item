@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_Vhf90E3iEeeV_bCyX21o4g" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_Vhf90U3iEeeV_bCyX21o4g" comment="" name="Staging_DB_USER_NAME" prompt="Staging_DB_USER_NAME?" promptNeeded="false" type="id_String" value="c001204"/>
+  <contextParameter xmi:id="_Vhf90k3iEeeV_bCyX21o4g" comment="" name="Staging_DB_PWD" prompt="Staging_DB_PWD?" promptNeeded="false" type="id_String" value="SSMS2012##!"/>
+  <contextParameter xmi:id="_Vhf9003iEeeV_bCyX21o4g" comment="" name="Staging_DB_NAME" prompt="Staging_DB_NAME?" promptNeeded="false" type="id_String" value="Hybris_Staging"/>
+  <contextParameter xmi:id="_Vhf91E3iEeeV_bCyX21o4g" comment="" name="Staging_DB_PORT" prompt="Staging_DB_PORT?" promptNeeded="false" type="id_String" value="1433"/>
+  <contextParameter xmi:id="_Vhf91U3iEeeV_bCyX21o4g" comment="" name="Staging_DB_HOST" prompt="Staging_DB_HOST?" promptNeeded="false" type="id_String" value="WAUDEVSQL28"/>
+  <contextParameter xmi:id="_Vhf91k3iEeeV_bCyX21o4g" comment="" name="Staging_DB_SCHEMA" prompt="Staging_DB_SCHEMA?" promptNeeded="false" type="id_String" value="Guidance_Integration_Schema"/>
+</talendfile:ContextType>

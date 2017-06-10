@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_VhLNsE3iEeeV_bCyX21o4g" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_VhLNsU3iEeeV_bCyX21o4g" comment="" name="Inventory_Source_DB_USER_NAME" prompt="Inventory_Source_DB_USER_NAME?" promptNeeded="false" type="id_String" value="c001204"/>
+  <contextParameter xmi:id="_VhLNsk3iEeeV_bCyX21o4g" comment="" name="Inventory_Source_DB_PWD" prompt="Inventory_Source_DB_PWD?" promptNeeded="false" type="id_String" value="SSMS2012##!"/>
+  <contextParameter xmi:id="_VhLNs03iEeeV_bCyX21o4g" comment="" name="Inventory_Source_DB_NAME" prompt="Inventory_Source_DB_NAME?" promptNeeded="false" type="id_String" value="Inventory"/>
+  <contextParameter xmi:id="_VhLNtE3iEeeV_bCyX21o4g" comment="" name="Inventory_Source_DB_PORT" prompt="Inventory_Source_DB_PORT?" promptNeeded="false" type="id_String" value="1433"/>
+  <contextParameter xmi:id="_VhLNtU3iEeeV_bCyX21o4g" comment="" name="Inventory_Source_DB_HOST" prompt="Inventory_Source_DB_HOST?" promptNeeded="false" type="id_String" value="WAUSQLUAT01CA"/>
+  <contextParameter xmi:id="_VhLNtk3iEeeV_bCyX21o4g" comment="" name="Inventory_Source_DB_DBO_SCHEMA" prompt="Inventory_Source_DB_DBO_SCHEMA?" promptNeeded="false" type="id_String" value="dbo"/>
+  <contextParameter xmi:id="_VhLNt03iEeeV_bCyX21o4g" comment="" name="Inventory_Source_DB_CDC_SCHEMA" prompt="Inventory_Source_DB_CDC_SCHEMA?" promptNeeded="false" type="id_String" value="cdc"/>
+</talendfile:ContextType>

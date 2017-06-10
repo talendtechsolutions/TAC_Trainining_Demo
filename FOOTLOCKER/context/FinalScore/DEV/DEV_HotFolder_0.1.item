@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_VgsFgE3iEeeV_bCyX21o4g" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_VgsFgU3iEeeV_bCyX21o4g" comment="" name="WIP" prompt="WIP?" promptNeeded="false" type="id_String" value="/mnt/etl/dev/hybris_v3/wip/"/>
+  <contextParameter xmi:id="_VgsFgk3iEeeV_bCyX21o4g" comment="" name="Sequential_Processing" prompt="Sequential_Processing?" promptNeeded="false" type="id_String" value="/mnt/etl/dev/hybris_v3/import/master/fl/sequential/processing/"/>
+  <contextParameter xmi:id="_VgsFg03iEeeV_bCyX21o4g" comment="" name="Sequential_Folder" prompt="Sequential_Folder?" promptNeeded="false" type="id_String" value="/mnt/etl/dev/hybris_v3/import/master/fl/sequential/"/>
+  <contextParameter xmi:id="_VgsFhE3iEeeV_bCyX21o4g" comment="" name="Normal_Processing" prompt="Normal_Processing?" promptNeeded="false" type="id_String" value="/mnt/etl/dev/hybris_v3/import/master/fl/normal/processing/"/>
+  <contextParameter xmi:id="_VgsFhU3iEeeV_bCyX21o4g" comment="" name="Normal_Folder" prompt="Normal_Folder?" promptNeeded="false" type="id_String" value="/mnt/etl/dev/hybris_v3/import/master/fl/normal/"/>
+  <contextParameter xmi:id="_VgsFhk3iEeeV_bCyX21o4g" comment="" name="Wait_Time" prompt="Wait_Time?" promptNeeded="false" type="id_Integer" value="10000"/>
+</talendfile:ContextType>

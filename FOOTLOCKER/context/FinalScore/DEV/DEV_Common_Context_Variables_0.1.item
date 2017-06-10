@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_VgPZkk3iEeeV_bCyX21o4g" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_VgPZk03iEeeV_bCyX21o4g" comment="" name="LOG_FOLDER" prompt="LOG_FOLDER?" promptNeeded="false" type="id_String" value="/app/data/talend/talend_integration/footlocker/log/"/>
+  <contextParameter xmi:id="_VgPZlE3iEeeV_bCyX21o4g" comment="" name="Sequential_Impex_Folder" prompt="Sequential_Impex_Folder?" promptNeeded="false" type="id_String" value="/app/data/talend/talend_integration/footlocker/sequential_impex/"/>
+  <contextParameter xmi:id="_VgPZlU3iEeeV_bCyX21o4g" comment="" name="Normal_Impex_Folder" prompt="Normal_Impex_Folder?" promptNeeded="false" type="id_String" value="/app/data/talend/talend_integration/footlocker/normal_impex/"/>
+  <contextParameter xmi:id="_VgPZlk3iEeeV_bCyX21o4g" comment="" name="inboundFolder" prompt="inboundFolder?" promptNeeded="false" type="id_String" value="/app/data/talend/talend_integration/footlocker/inbound/"/>
+  <contextParameter xmi:id="_VgPZl03iEeeV_bCyX21o4g" comment="" name="TEMP_FOLDER" prompt="TEMP_FOLDER?" promptNeeded="false" type="id_String" value="/app/data/talend/talend_integration/footlocker/temp/"/>
+  <contextParameter xmi:id="_VgPZmE3iEeeV_bCyX21o4g" comment="" name="Cache_Folder" prompt="Cache_Folder?" promptNeeded="false" type="id_String" value="/app/cache/talend/"/>
+  <contextParameter xmi:id="_VgPZmU3iEeeV_bCyX21o4g" comment="" name="CONTEXT" prompt="CONTEXT?" promptNeeded="false" type="id_String" value="/app/data/talend/talend_integration/context/context.cfg&#xA;"/>
+</talendfile:ContextType>

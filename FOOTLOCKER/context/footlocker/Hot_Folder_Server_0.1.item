@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_VjW_AE3iEeeV_bCyX21o4g" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_VjW_AU3iEeeV_bCyX21o4g" comment="" name="Server_Sequential_Processing" prompt="Server_Sequential_Processing?" promptNeeded="false" type="id_String" value="/mnt/etl/uat/uat/hybris/import/master/fl/sequential/processing/"/>
+  <contextParameter xmi:id="_VjW_Ak3iEeeV_bCyX21o4g" comment="" name="Server_Normal_Processing" prompt="Server_Normal_Processing?" promptNeeded="false" type="id_String" value="/mnt/etl/uat/uat/hybris/import/master/fl/normal/processing/"/>
+  <contextParameter xmi:id="_VjW_A03iEeeV_bCyX21o4g" comment="" name="Server_WIP" prompt="Server_WIP?" promptNeeded="false" type="id_String" value="/mnt/etl/uat/uat/hybris/wip/"/>
+  <contextParameter xmi:id="_VjW_BE3iEeeV_bCyX21o4g" comment="" name="Server_Sequential_Folder" prompt="Server_Sequential_Folder?" promptNeeded="false" type="id_String" value="/mnt/etl/uat/uat/hybris/import/master/fl/sequential/"/>
+  <contextParameter xmi:id="_VjW_BU3iEeeV_bCyX21o4g" comment="" name="Server_Normal_Folder" prompt="Server_Normal_Folder?" promptNeeded="false" type="id_String" value="/mnt/etl/uat/uat/hybris/import/master/fl/normal/"/>
+  <contextParameter xmi:id="_VjW_Bk3iEeeV_bCyX21o4g" comment="" name="Server_Wait_Time" prompt="Server_Wait_Time?" promptNeeded="false" type="id_Integer" value=""/>
+  <contextParameter xmi:id="_VjW_B03iEeeV_bCyX21o4g" comment="" name="Server_CONTEXT" prompt="Server_CONTEXT?" promptNeeded="false" type="id_String" value="/app/data/talend/talend_integration/context/context_uat.cfg"/>
+</talendfile:ContextType>

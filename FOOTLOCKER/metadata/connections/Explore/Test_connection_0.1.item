@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_Rx-1ENUCEea6L7OqDm6AOA" name="Test_connection" id="_9nq34NUBEea6L7OqDm6AOA" label="Test_connection" dataPackage="_RzpB8NUCEea6L7OqDm6AOA" DatabaseType="Microsoft SQL Server" DriverClass="net.sourceforge.jtds.jdbc.Driver" URL="jdbc:jtds:sqlserver://localhost:1433/test;" Port="1433" Username="sa" Password="9XuSrKfl6LYbxAMkH6QgrC0tbxK8e5CD" ServerName="localhost" DatasourceName="" FileFieldName="" SID="test" SqlSynthax="SQL Syntax" DbmsId="id_MSSQL" ProductId="SQL_SERVER" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="test_schema">
+    <taggedValue xmi:id="_RyADMNUCEea6L7OqDm6AOA" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_RyQh4NUCEea6L7OqDm6AOA" tag="package filter" value=""/>
+    <taggedValue xmi:id="_RyZEwNUCEea6L7OqDm6AOA" tag="Status" value=""/>
+    <taggedValue xmi:id="_RyZEwdUCEea6L7OqDm6AOA" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_RyZEwtUCEea6L7OqDm6AOA" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_RyZEw9UCEea6L7OqDm6AOA" tag="Description" value=""/>
+    <taggedValue xmi:id="_RyZExNUCEea6L7OqDm6AOA" tag="Author" value=""/>
+    <taggedValue xmi:id="_RyZExdUCEea6L7OqDm6AOA" tag="otherParameter"/>
+    <taggedValue xmi:id="_Ry_hsNUCEea6L7OqDm6AOA" tag="DB ProductName" value="Microsoft SQL Server"/>
+    <taggedValue xmi:id="_Ry_hsdUCEea6L7OqDm6AOA" tag="DB ProductVersion" value="14.00.0100"/>
+    <taggedValue xmi:id="_RzAIwNUCEea6L7OqDm6AOA" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_RyADMdUCEea6L7OqDm6AOA" key="CONN_PARA_KEY_USERNAME" value="sa"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_RzpB8NUCEea6L7OqDm6AOA" name="test" dataManager="_Rx-1ENUCEea6L7OqDm6AOA">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_RzppANUCEea6L7OqDm6AOA" name="test_schema"/>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>

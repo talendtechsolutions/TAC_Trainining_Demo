@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_ViXggE3iEeeV_bCyX21o4g" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_ViXggU3iEeeV_bCyX21o4g" comment="" name="Source_DB_SCHEMA" prompt="Source_DB_SCHEMA?" promptNeeded="false" type="id_String" value="Guidance"/>
+  <contextParameter xmi:id="_ViXggk3iEeeV_bCyX21o4g" comment="" name="Source_DB_HOST" prompt="Source_DB_HOST?" promptNeeded="false" type="id_String" value="WAUSQLUAT01CB"/>
+  <contextParameter xmi:id="_ViXgg03iEeeV_bCyX21o4g" comment="" name="Source_DB_USER_NAME" prompt="Source_DB_USER_NAME?" promptNeeded="false" type="id_String" value="c001204"/>
+  <contextParameter xmi:id="_ViXghE3iEeeV_bCyX21o4g" comment="" name="Source_DB_PORT" prompt="Source_DB_PORT?" promptNeeded="false" type="id_String" value="1433"/>
+  <contextParameter xmi:id="_ViXghU3iEeeV_bCyX21o4g" comment="" name="Source_DB_PWD" prompt="Source_DB_PWD?" promptNeeded="false" type="id_Password" value="7i4fsf8v5cyE9o/NNzNhLQ=="/>
+  <contextParameter xmi:id="_ViXghk3iEeeV_bCyX21o4g" comment="" name="Source_DB_NAME" prompt="Source_DB_NAME?" promptNeeded="false" type="id_String" value="Internet_Extract"/>
+</talendfile:ContextType>
