@@ -605,7 +605,7 @@
       <additionalProperties key="Comment" value=""/>
     </metadata>
     <nodeData xsi:type="MapperData">
-      <uiProperties/>
+      <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="model_scd_out">
         <mapperTableEntries name="model_web_key" expression="model_webKey_out.model_web_key" type="id_Long" nullable="true"/>
