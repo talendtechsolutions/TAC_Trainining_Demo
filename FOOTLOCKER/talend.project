@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Project xmi:id="_ku90UE-UEeeZa-Ul9X8LOA" label="FootLocker" description="FootLocker" language="java" technicalLabel="FOOTLOCKER" creationDate="2017-06-10T18:53:32.000+0530" author="_ku90UU-UEeeZa-Ul9X8LOA" productVersion="Talend Data Services Platform-6.2.1.20160704_1411" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/talendtechsolutions/TAC_Trainining_Demo.git&quot;,&quot;login&quot;:&quot;talendtechsolutions&quot;,&quot;passwd&quot;:&quot;7+ZJCA/XRCiCv23XRKz1d+fmbrb4jEOu&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DQ"/>
+  <TalendProperties:User xmi:id="_ku90UU-UEeeZa-Ul9X8LOA" login="admin@company.com" firstName="admin" lastName="admin" type="DQ" additionnalData="{}"/>
+</xmi:XMI>
