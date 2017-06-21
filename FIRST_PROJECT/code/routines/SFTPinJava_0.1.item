@@ -1,0 +1,114 @@
+package routines;
+
+import com.jcraft.jsch.Channel;
+import com.jcraft.jsch.ChannelSftp;
+import com.jcraft.jsch.JSch;
+import com.jcraft.jsch.JSchException;
+import com.jcraft.jsch.Session;
+import com.jcraft.jsch.SftpException;
+
+//import java.util.*;
+/*
+ * user specification: the function's comment should contain keys as follows: 1. write about the function's comment.but
+ * it must be before the "{talendTypes}" key.
+ * 
+ * 2. {talendTypes} 's value must be talend Type, it is required . its value should be one of: String, char | Character,
+ * long | Long, int | Integer, boolean | Boolean, byte | Byte, Date, double | Double, float | Float, Object, short |
+ * Short
+ * 
+ * 3. {Category} define a category for the Function. it is required. its value is user-defined .
+ * 
+ * 4. {param} 's format is: {param} <type>[(<default value or closed list values>)] <name>[ : <comment>]
+ * 
+ * <type> 's value should be one of: string, int, list, double, object, boolean, long, char, date. <name>'s value is the
+ * Function's parameter name. the {param} is optional. so if you the Function without the parameters. the {param} don't
+ * added. you can have many parameters for the Function.
+ * 
+ * 5. {example} gives a example for the Function. it is optional.
+ */
+public class SFTPinJava {
+
+    /**
+     * helloExample: not return value, only print "hello" + message.
+     * 
+     * 
+     * {talendTypes} String
+     * 
+     * {Category} User Defined
+     * 
+     * {param} string("world") input: The string need to be printed.
+     * 
+     * {example} helloExemple("world") # hello world !.
+     */
+	public static void  ftp(String filePath,String host,int port,String user,String key,String remoteDir) 
+	//	throws InterruptedException
+	{
+	      //System.out.println("Your first argument is: "+filePath);
+			/*Below we have declared and defined the SFTP HOST, PORT, USER 
+			           and Local private key from where you will make connection */
+			String SFTPHOST = host;
+	        int    SFTPPORT = port;
+	        String SFTPUSER = user;
+	        // this file can be id_rsa or id_dsa based on which algorithm is used to create the key
+	        String privateKey = key; 
+	        String SFTPWORKINGDIR = remoteDir;
+	        
+	        JSch jSch = new JSch();
+	        Session     session     = null;
+	        Channel     channel     = null;
+	        ChannelSftp channelSftp = null;
+	        try {
+				jSch.addIdentity(privateKey);
+				//System.out.println("Private Key Added.");
+				session = jSch.getSession(SFTPUSER,SFTPHOST,SFTPPORT);
+	           // System.out.println("session created.");
+	            
+	            java.util.Properties config = new java.util.Properties();
+	            config.put("StrictHostKeyChecking", "no");
+	            session.setConfig(config);
+	            session.connect();
+	            channel = session.openChannel("sftp");
+		        channel.setInputStream(System.in);
+	            channel.setOutputStream(System.out);
+	            channel.connect();
+	           // System.out.println("shell channel connected....");
+	            channelSftp = (ChannelSftp)channel;
+	            channelSftp.cd(SFTPWORKINGDIR);
+	           // System.out.println("Changed the directory...");
+	            //filePath.substring(filePath.lastIndexOf("/") + 1)
+	            String fileName =filePath;
+	            channelSftp.put(fileName, ".");
+                //channelSftp.ls(fileName+"*");
+//	             
+//	             
+//	            System.out.println("Listing all files from : "+ SFTPWORKINGDIR);
+//	            for(LsEntry entry : v){
+//	                System.out.println(""+entry.getFilename());
+//	            }
+//	             
+	            
+	            
+	            
+	       
+	            
+	            channelSftp.exit();
+	            //System.out.println("done");
+	     
+			} catch (JSchException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} catch (SftpException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}finally{
+				if(channelSftp!=null){
+					channelSftp.disconnect();
+					channelSftp.exit();
+				}
+				if(channel!=null) channel.disconnect();
+				
+				if(session!=null) session.disconnect();
+			}
+		}
+
+}
