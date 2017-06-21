@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_aGcmcFY3EeeNZu2aT5prYQ" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_aGcmcVY3EeeNZu2aT5prYQ" comment="" name="wellsInboundRequest" prompt="wellsInboundRequest?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_aGcmclY3EeeNZu2aT5prYQ" comment="" name="wellsInboundProcessedFiles" prompt="wellsInboundProcessedFiles?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_aGcmc1Y3EeeNZu2aT5prYQ" comment="" name="wellsFargoHost" prompt="wellsFargoHost?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_aGcmdFY3EeeNZu2aT5prYQ" comment="" name="wellsFargoPort" prompt="wellsFargoPort?" promptNeeded="false" type="id_Integer" value=""/>
+  <contextParameter xmi:id="_aGcmdVY3EeeNZu2aT5prYQ" comment="" name="wellsFargoUser" prompt="wellsFargoUser?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_aGcmdlY3EeeNZu2aT5prYQ" comment="" name="wellsFargoKey" prompt="wellsFargoKey?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_aGcmd1Y3EeeNZu2aT5prYQ" comment="" name="wellsFargoInboundRemoteDir" prompt="wellsFargoInboundRemoteDir?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_aGcmeFY3EeeNZu2aT5prYQ" comment="" name="wellsOutboundRequest" prompt="wellsOutboundRequest?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_aGcmeVY3EeeNZu2aT5prYQ" comment="" name="wellsFargoOutboundRemoteDir" prompt="wellsFargoOutboundRemoteDir?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_aGcmelY3EeeNZu2aT5prYQ" comment="" name="billPaymentQueryParam" prompt="billPaymentQueryParam?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_aGcme1Y3EeeNZu2aT5prYQ" comment="" name="netsuiteUrl" prompt="netsuiteUrl?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_aGcmfFY3EeeNZu2aT5prYQ" comment="" name="wellsOutboundProcessedFiles" prompt="wellsOutboundProcessedFiles?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_aGcmfVY3EeeNZu2aT5prYQ" comment="" name="wellsInboundUnprocessedFiles" prompt="wellsInboundUnprocessedFiles?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_aGcmflY3EeeNZu2aT5prYQ" comment="" name="wellsOutboundUnprocessedFiles" prompt="wellsOutboundUnprocessedFiles?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_aGcmf1Y3EeeNZu2aT5prYQ" comment="" name="wellsFargoOutboundZIPRemoteDir" prompt="wellsFargoOutboundZIPRemoteDir?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_aGcmgFY3EeeNZu2aT5prYQ" comment="" name="wellsOutboundEncode" prompt="wellsOutboundEncode?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_aGcmgVY3EeeNZu2aT5prYQ" comment="" name="welsFargotalendErrorLog" prompt="welsFargotalendErrorLog?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_aGcmglY3EeeNZu2aT5prYQ" comment="" name="wellsFargoInboundVendorBillRemoteDir" prompt="wellsFargoInboundVendorBillRemoteDir?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_aGcmg1Y3EeeNZu2aT5prYQ" comment="" name="sendTo" prompt="sendTo?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_aGcmhFY3EeeNZu2aT5prYQ" comment="" name="sendFrom" prompt="sendFrom?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_aGcmhVY3EeeNZu2aT5prYQ" comment="" name="XMLFilePath" prompt="XMLFilePath?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_aGcmhlY3EeeNZu2aT5prYQ" comment="" name="JobName" prompt="JobName?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_aGcmh1Y3EeeNZu2aT5prYQ" comment="" name="DB_HOST" prompt="DB_HOST?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_aGcmiFY3EeeNZu2aT5prYQ" comment="" name="DB_User" prompt="DB_User?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_aGcmiVY3EeeNZu2aT5prYQ" comment="" name="DB_PWD" prompt="DB_PWD?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_aGcmilY3EeeNZu2aT5prYQ" comment="" name="DB_Name" prompt="DB_Name?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_aGcmi1Y3EeeNZu2aT5prYQ" comment="" name="DB_Port" prompt="DB_Port?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_aGcmjFY3EeeNZu2aT5prYQ" comment="" name="emailPWD" prompt="emailPWD?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_aGcmjVY3EeeNZu2aT5prYQ" comment="" name="smtpHost" prompt="smtpHost?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_aGcmjlY3EeeNZu2aT5prYQ" comment="" name="smtpPort" prompt="smtpPort?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_aGcmj1Y3EeeNZu2aT5prYQ" comment="" name="wellsTemp" prompt="wellsTemp?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_aGcmkFY3EeeNZu2aT5prYQ" comment="" name="logFolder" prompt="logFolder?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_aGcmkVY3EeeNZu2aT5prYQ" comment="" name="ipUrl" prompt="ipUrl?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_aGcmklY3EeeNZu2aT5prYQ" comment="" name="environment" prompt="environment?" promptNeeded="false" type="id_String" value=""/>
+</talendfile:ContextType>
